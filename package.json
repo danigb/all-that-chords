@@ -1,0 +1,29 @@
+{
+  "name": "all-that-chords-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "The tests and build tools of all-that-chords",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigb/all-that-chords.git"
+  },
+  "keywords": [
+    "chords",
+    "teoria",
+    "music",
+    "notation"
+  ],
+  "author": "danigb <danigb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/all-that-chords/issues"
+  },
+  "homepage": "https://github.com/danigb/all-that-chords",
+  "devDependencies": {
+    "vows": "^0.8.1"
+  }
+}
