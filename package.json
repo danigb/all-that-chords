@@ -5,7 +5,8 @@
   "description": "The tests and build tools of all-that-chords",
   "main": "index.js",
   "scripts": {
-    "test": "vows test/*.js"
+    "test": "vows test/*.js",
+    "start": "webpack index.js dist/all-that-chords.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
   },
   "homepage": "https://github.com/danigb/all-that-chords",
   "devDependencies": {
-    "vows": "^0.8.1"
+    "node-libs-browser": "^0.5.0",
+    "pitch": "file:../pitch/lib",
+    "vows": "^0.8.1",
+    "webpack": "^1.9.4"
   }
 }
