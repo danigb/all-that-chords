@@ -1,35 +1,36 @@
 {
-  "XMajor": {
-    "same": "XM"
+  "_Major": {
+    "same": "_M"
   },
-  "Xminor": {
-    "same": "Xm"
+  "_minor": {
+    "same": "_m"
   },
-  "Xminor7": {
-    "same": "Xm7"
+  "_minor7": {
+    "same": "_m7"
   },
-  "XDominant": {
-    "same": "X7"
+  "_Dominant": {
+    "same": "_7"
   },
-  "Xaugmented": {
-    "same": "XM#5"
+  "_augmented": {
+    "same": "_M#5"
   },
-  "Xdiminished": {
-    "same": "Xo7"
+  "_diminished": {
+    "same": "_o7"
   },
-  "Xhalf-diminished": {
-    "same": "Xm7b5"
+  "_half-diminished": {
+    "same": "_m7b5"
   },
-  "Xquartal": {
-    "same": "X4"
+  "_quartal": {
+    "same": "_4"
   },
-  "X": {
-    "same": "XM"
+  "_": {
+    "same": "_M"
   },
-  "XBass": {
-    "name": "XBass",
+  "_Bass": {
+    "name": "_Bass",
     "family": "bass",
     "pronounce": "Bass",
+    "key": "c",
     "spell": [
       "P1"
     ],
@@ -46,10 +47,11 @@
     "voicings": {},
     "scales": {}
   },
-  "XNote": {
-    "name": "XNote",
+  "_Note": {
+    "name": "_Note",
     "family": "note",
     "pronounce": "note",
+    "key": "c",
     "spell": [
       "P1"
     ],
@@ -72,10 +74,11 @@
     },
     "scales": {}
   },
-  "XM": {
-    "name": "XM",
+  "_M": {
+    "name": "_M",
     "family": "major",
     "pronounce": "major",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -188,10 +191,11 @@
     },
     "extensions": "XM6 XM7 XMadd9"
   },
-  "XM6": {
-    "name": "XM6",
+  "_M6": {
+    "name": "_M6",
     "family": "major",
     "pronounce": "major six",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -326,13 +330,14 @@
     "extensions": "XM69",
     "substitute": "Am7"
   },
-  "X6": {
-    "same": "XM6"
+  "_6": {
+    "same": "_M6"
   },
-  "XM69": {
-    "name": "XM69",
+  "_M69": {
+    "name": "_M69",
     "family": "major",
     "pronounce": "major six nine",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -435,13 +440,14 @@
     "extensions": "XM69#11",
     "substitute": "XM7 XM9 XM69#11"
   },
-  "X69": {
-    "same": "XM69"
+  "_69": {
+    "same": "_M69"
   },
-  "XM6#11": {
-    "name": "XM6#11",
+  "_M6#11": {
+    "name": "_M6#11",
     "family": "major",
     "pronounce": "major six sharp eleven",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -487,19 +493,20 @@
       "P5": "major"
     }
   },
-  "XM6b5": {
-    "same": "XM6#11"
+  "_M6b5": {
+    "same": "_M6#11"
   },
-  "X6#11": {
-    "same": "XM6#11"
+  "_6#11": {
+    "same": "_M6#11"
   },
-  "X6b5": {
-    "same": "XM6b5"
+  "_6b5": {
+    "same": "_M6b5"
   },
-  "XM69#11": {
-    "name": "XM69#11",
+  "_M69#11": {
+    "name": "_M69#11",
     "family": "major",
     "pronounce": "major six nine sharp eleven",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -603,10 +610,11 @@
       "M2": "major pentatonic"
     }
   },
-  "XMadd9": {
-    "name": "XMadd9",
+  "_Madd9": {
+    "name": "_Madd9",
     "family": "major",
     "pronounce": "major add nine",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -687,16 +695,17 @@
     },
     "extensions": "XM69"
   },
-  "Xadd9": {
-    "same": "XMadd9"
+  "_add9": {
+    "same": "_Madd9"
   },
-  "Xadd9no3": {
-    "same": "XMsus2"
+  "_add9no3": {
+    "same": "_Msus2"
   },
-  "XMsus2": {
-    "name": "XMsus2",
+  "_Msus2": {
+    "name": "_Msus2",
     "family": "major",
     "pronounce": "major sus two",
+    "key": "c",
     "spell": [
       "P1",
       "M2",
@@ -762,22 +771,23 @@
     },
     "extensions": "XMadd9"
   },
-  "Xsus": {
-    "same": "XMsus4"
+  "_sus": {
+    "same": "_Msus4"
   },
-  "Xsus2": {
-    "same": "XMsus2"
+  "_sus2": {
+    "same": "_Msus2"
   },
-  "X2": {
-    "same": "XMadd9"
+  "_2": {
+    "same": "_Madd9"
   },
-  "Xadd2": {
-    "same": "XMadd9"
+  "_add2": {
+    "same": "_Madd9"
   },
-  "Xsus24": {
-    "name": "Xsus24",
+  "_sus24": {
+    "name": "_sus24",
     "family": "major",
     "pronounce": "major sus two four",
+    "key": "c",
     "spell": [
       "P1",
       "M2",
@@ -845,13 +855,14 @@
       "P1": "major"
     }
   },
-  "Xsus4add9": {
-    "same": "Xsus24"
+  "_sus4add9": {
+    "same": "_sus24"
   },
-  "XM7": {
-    "name": "XM7",
+  "_M7": {
+    "name": "_M7",
     "family": "major",
     "pronounce": "major seven",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -960,16 +971,17 @@
     "extensions": "XM9 XM7#11 XM7add13",
     "substitute": "XM69 Em7 Am9"
   },
-  "Xmaj7": {
-    "same": "XM7"
+  "_maj7": {
+    "same": "_M7"
   },
-  "XMaj7": {
-    "same": "XM7"
+  "_Maj7": {
+    "same": "_M7"
   },
-  "XM9": {
-    "name": "XM9",
+  "_M9": {
+    "name": "_M9",
     "family": "major",
     "pronounce": "major nine",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -1192,101 +1204,102 @@
     "extensions": "XM9#11 XM13",
     "substitute": "XM69 Em7 Am11"
   },
-  "Xmaj9": {
-    "same": "XM9"
+  "_maj9": {
+    "same": "_M9"
   },
-  "XMaj9": {
-    "same": "XM9"
+  "_Maj9": {
+    "same": "_M9"
   },
-  "XM7#11": {
-    "name": "XM7#11",
+  "_M7#11": {
+    "name": "_M7#11",
     "family": "major",
     "pronounce": "major seven sharp eleven",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
       "P1",
       "M3",
-      "m-2"
+      "P5",
+      "M7",
+      "A4"
     ],
     "color": [
-      "P-4",
-      "M2"
+      "M2",
+      "M6"
     ],
     "priority": [
-      "m-2",
+      "A4",
+      "M7",
       "M3",
-      "m-3",
-      "P1",
-      "P-5"
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
         "A1"
       ],
-      "m-2": [
-        "M-2"
+      "M3": [
+        "m3",
+        "P4"
+      ],
+      "P5": [
+        "A5"
+      ],
+      "A4": [
+        "P4"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "m-2",
-          "M3"
+          "M3",
+          "A4",
+          "M7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M3",
-          "M6",
-          "M7"
+          "M7",
+          "M10",
+          "A11"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "M6",
-          "M7"
+          "P5",
+          "M7",
+          "M10",
+          "A11"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "M6",
+          "P5",
           "M10",
-          "M14"
+          "M14",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P1",
-          "M7",
-          "M10",
-          "M13"
+          "P5",
+          "A11",
+          "M14",
+          "M17"
         ]
       },
       "two-hand-C": {
         "type": "open",
         "notes": [
-          "m-10",
-          "P-8",
           "m-6",
-          "m-3",
-          "m-2"
+          "P-4",
+          "m-2",
+          "M3",
+          "A4"
         ]
       }
     },
@@ -1308,107 +1321,108 @@
       "M3": "flat six pentatonic"
     },
     "avoid": [
-      "P-5",
-      "P1"
+      "P1",
+      "P5"
     ],
     "extensions": "XM9#11",
     "substitute": "XM69#11"
   },
-  "Xmaj7#11": {
-    "same": "XM7#11"
+  "_maj7#11": {
+    "same": "_M7#11"
   },
-  "XMaj7#11": {
-    "same": "XM7#11"
+  "_Maj7#11": {
+    "same": "_M7#11"
   },
-  "XM9#11": {
-    "name": "XM9#11",
+  "_M9#11": {
+    "name": "_M9#11",
     "family": "major",
     "pronounce": "major nine sharp eleven",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
       "P1",
       "M3",
-      "P-4",
-      "m-2"
+      "P5",
+      "M7",
+      "M2",
+      "A4"
     ],
     "color": [
-      "M2"
+      "M6"
     ],
     "priority": [
-      "m-2",
+      "A4",
+      "M7",
       "M3",
-      "m-3",
-      "P-4",
-      "P1",
-      "P-5"
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
         "A1"
       ],
-      "P-4": [
-        "d-5",
-        "M-3"
+      "M3": [
+        "m3",
+        "P4"
       ],
-      "m-2": [
-        "P1"
+      "P5": [
+        "A5"
+      ],
+      "M2": [
+        "A1",
+        "m3"
+      ],
+      "A4": [
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "m-2",
           "M3",
-          "P5"
+          "A4",
+          "M7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M3",
-          "P5",
-          "M6",
-          "M7"
+          "M7",
+          "M9",
+          "M10",
+          "A11"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
           "P5",
-          "M6",
-          "m-2"
+          "M7",
+          "M9",
+          "M10",
+          "A4"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P5",
-          "M6",
+          "M9",
           "M10",
-          "M14"
+          "M14",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P1",
           "P5",
-          "M7",
-          "M10",
-          "M13"
+          "M9",
+          "A11",
+          "M14",
+          "M17"
         ]
       }
     },
@@ -1425,22 +1439,23 @@
       ]
     },
     "avoid": [
-      "P-5",
-      "P1"
+      "P1",
+      "P5"
     ],
     "extensions": "XM13#11",
     "substitute": "XM69#11"
   },
-  "Xmaj9#11": {
-    "same": "XM9#11"
+  "_maj9#11": {
+    "same": "_M9#11"
   },
-  "XMaj9#11": {
-    "same": "XM9#11"
+  "_Maj9#11": {
+    "same": "_M9#11"
   },
-  "XM13": {
-    "name": "XM13",
+  "_M13": {
+    "name": "_M13",
     "family": "major",
     "pronounce": "major thirteen",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -1569,16 +1584,17 @@
     "extensions": "XM13#11",
     "substitute": "XM69#11"
   },
-  "Xmaj13": {
-    "same": "XM13"
+  "_maj13": {
+    "same": "_M13"
   },
-  "XMaj13": {
-    "same": "XM13"
+  "_Maj13": {
+    "same": "_M13"
   },
-  "XM7add13": {
-    "name": "XM7add13",
+  "_M7add13": {
+    "name": "_M7add13",
     "family": "major",
     "pronounce": "major seven add 13",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -1672,120 +1688,121 @@
     ],
     "extensions": "XM13#11"
   },
-  "XM13#11": {
-    "name": "XM13#11",
+  "_M13#11": {
+    "name": "_M13#11",
     "family": "major",
     "pronounce": "major thirteen sharp eleven",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
       "P1",
       "M3",
-      "P-4",
-      "m-2",
-      "M2"
+      "P5",
+      "M7",
+      "M2",
+      "A4",
+      "M6"
     ],
     "priority": [
-      "m-2",
-      "M2",
+      "A4",
+      "M6",
+      "M7",
       "M3",
-      "m-3",
-      "P-4",
-      "P1",
-      "P-5"
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
         "A1"
+      ],
+      "M3": [
+        "m3",
+        "P4"
+      ],
+      "P5": [
+        "A5"
+      ],
+      "M6": [
+        "A5",
+        "m7"
       ],
       "M2": [
         "A1",
         "m3"
       ],
-      "P-4": [
-        "d-5",
-        "M-3"
-      ],
-      "M3": [
-        "m3"
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
           "M3",
-          "P5",
+          "M7",
           "M9",
-          "M14"
+          "M13",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "m-10",
           "m-6",
-          "P-4",
           "m-2",
-          "M2"
+          "M2",
+          "A4",
+          "M6"
         ]
       },
       "two-hand-C": {
         "type": "open",
         "notes": [
-          "m-10",
-          "m-7",
           "m-6",
-          "P-4",
-          "m-2"
+          "m-3",
+          "m-2",
+          "M2",
+          "A4"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "M2",
           "M3",
-          "P5",
-          "M7"
+          "M6",
+          "M7",
+          "M9",
+          "A11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "m-3",
           "M3",
-          "P5",
           "M7",
-          "M9"
+          "M9",
+          "A11",
+          "M13"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "m-3",
-          "M2",
           "M3",
-          "P5",
-          "M7"
+          "M6",
+          "M7",
+          "M9",
+          "A11"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "M3",
-          "P5",
-          "M6",
           "M7",
-          "M9"
+          "M9",
+          "M10",
+          "A11",
+          "M13"
         ]
       }
     },
@@ -1802,116 +1819,117 @@
       ]
     },
     "avoid": [
-      "P-5",
-      "P1"
+      "P1",
+      "P5"
     ],
     "extensions": "XM13#11"
   },
-  "Xmaj13#11": {
-    "same": "XM13#11"
+  "_maj13#11": {
+    "same": "_M13#11"
   },
-  "XMaj13#11": {
-    "same": "XM13#11"
+  "_Maj13#11": {
+    "same": "_M13#11"
   },
-  "X69#11": {
-    "name": "X69#11",
+  "_69#11": {
+    "name": "_69#11",
     "family": "major",
     "pronounce": "six nine sharp eleven",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
       "P1",
+      "M3",
+      "P5",
+      "M6",
       "M2",
-      "P-4",
-      "m-2"
+      "A4"
     ],
     "color": [
-      "M3"
+      "M7"
     ],
     "priority": [
-      "m-2",
+      "A4",
+      "M6",
+      "M3",
       "M2",
-      "m-3",
-      "P-4",
-      "P1",
-      "P-5"
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
         "A1"
+      ],
+      "M3": [
+        "m3",
+        "P4"
+      ],
+      "P5": [
+        "A5"
+      ],
+      "M6": [
+        "A5",
+        "m7"
       ],
       "M2": [
         "A1",
         "m3"
       ],
-      "P-4": [
-        "d-5",
-        "M-3"
-      ],
-      "m-2": [
-        "M-2"
+      "A4": [
+        "P4"
       ]
     },
     "voicings": {
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "m-10",
           "m-6",
-          "P-4",
-          "M2"
+          "m-2",
+          "M2",
+          "M6"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "M2",
-          "P5",
-          "M7"
+          "M3",
+          "M6",
+          "M9",
+          "A11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "P5",
-          "M7",
-          "M9"
+          "M3",
+          "M9",
+          "A11",
+          "M13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "P5",
+          "M3",
           "M9",
-          "M14"
+          "M13",
+          "A18"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "m-3",
-          "M2",
-          "P5",
-          "M7"
+          "M3",
+          "M6",
+          "M9",
+          "A11"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "P5",
-          "M6",
-          "M7",
-          "M9"
+          "M9",
+          "M10",
+          "A11",
+          "M13"
         ]
       }
     },
@@ -1928,68 +1946,69 @@
       ]
     },
     "avoid": [
-      "P-5",
-      "P1"
+      "P1",
+      "P5"
     ],
     "extensions": "XM13#11"
   },
-  "XMb5": {
-    "name": "XMb5",
+  "_Mb5": {
+    "name": "_Mb5",
     "family": "major",
     "pronounce": "major flat five",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
-      "d1"
+      "P1",
+      "M3",
+      "d5"
     ],
     "color": [
-      "M3",
-      "P-4",
-      "M2"
+      "M7",
+      "M2",
+      "M6"
     ],
     "priority": [
-      "d1",
-      "m-3",
-      "P-5"
+      "d5",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5",
-        "M3",
-        "P-4"
+      "P1": [
+        "A1",
+        "M7",
+        "M2"
       ],
-      "m-3": [
-        "M-3",
-        "M-2"
+      "M3": [
+        "m3",
+        "P4"
       ],
-      "d1": [
-        "M-2",
-        "P1"
+      "d5": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-10",
-          "P-5",
-          "m-2"
+          "m-6",
+          "P1",
+          "A4"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "P4",
-          "M6"
+          "A4",
+          "P8",
+          "M10"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "m-10",
-          "m-9",
-          "P-5"
+          "m-6",
+          "d-5",
+          "P1"
         ]
       }
     },
@@ -1998,55 +2017,56 @@
     },
     "extensions": "XM7b5"
   },
-  "XM7b5": {
-    "name": "XM7b5",
+  "_M7b5": {
+    "name": "_M7b5",
     "family": "major",
     "pronounce": "major seven flat five",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
-      "d1",
-      "M3"
+      "P1",
+      "M3",
+      "d5",
+      "M7"
     ],
     "color": [
-      "P-4",
-      "M2"
+      "M2",
+      "M6"
     ],
     "priority": [
+      "M7",
+      "d5",
       "M3",
-      "d1",
-      "m-3",
-      "P-5"
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5",
-        "P-4"
+      "P1": [
+        "A1",
+        "M2"
       ],
-      "m-3": [
-        "M-3",
-        "M-2"
+      "M3": [
+        "m3",
+        "P4"
       ],
-      "d1": [
-        "M-2",
-        "P1"
+      "d5": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
           "M3",
-          "d8"
+          "M7",
+          "d12"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "d1",
-          "M6",
-          "M10"
+          "d5",
+          "M10",
+          "M14"
         ]
       }
     },
@@ -2055,61 +2075,62 @@
       "d5": "locrian pentatonic"
     },
     "avoid": [
-      "P-5"
+      "P1"
     ],
     "extensions": "XM9b5"
   },
-  "XM9b5": {
-    "name": "XM9b5",
+  "_M9b5": {
+    "name": "_M9b5",
     "family": "major",
     "pronounce": "major nine flat five",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
-      "d1",
+      "P1",
       "M3",
-      "P-4"
-    ],
-    "color": [
+      "d5",
+      "M7",
       "M2"
     ],
+    "color": [
+      "M6"
+    ],
     "priority": [
+      "M7",
+      "M2",
+      "d5",
       "M3",
-      "P-4",
-      "d1",
-      "m-3",
-      "P-5"
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
+      "P1": [
+        "A1"
       ],
-      "m-3": [
-        "M-3",
-        "M-2"
+      "M3": [
+        "m3",
+        "P4"
       ],
-      "d1": [
-        "M-2",
-        "P1"
+      "d5": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
           "M3",
-          "P5",
-          "d8"
+          "M7",
+          "M9",
+          "d12"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M3",
-          "P5",
-          "M6",
-          "d8"
+          "M7",
+          "M9",
+          "M10",
+          "d12"
         ]
       }
     },
@@ -2117,155 +2138,157 @@
       "P1": "lydian"
     },
     "avoid": [
-      "P-5"
+      "P1"
     ]
   },
-  "XM7#9#11": {
-    "name": "XM7#9#11",
+  "_M7#9#11": {
+    "name": "_M7#9#11",
     "family": "major",
     "pronounce": "major seven sharp nine sharp eleven",
+    "key": "g",
     "spell": [
-      "P-5",
-      "m-3",
       "P1",
       "M3",
-      "d-4",
-      "m-2"
+      "P5",
+      "M7",
+      "A2",
+      "A4"
     ],
     "priority": [
-      "m-2",
-      "d-4",
+      "A4",
+      "A2",
+      "M7",
       "M3",
-      "m-3",
-      "P1",
-      "P-5"
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
         "A1"
       ],
-      "d-4": [
-        "P-4",
-        "m-3"
+      "M3": [
+        "m3",
+        "P4"
       ],
-      "m-2": [
-        "P1"
+      "P5": [
+        "A5"
+      ],
+      "A2": [
+        "M2",
+        "M3"
+      ],
+      "A4": [
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-3",
-          "m-2",
           "M3",
-          "A5"
+          "A4",
+          "M7",
+          "A9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M3",
-          "A5",
-          "M6",
-          "M7"
+          "M7",
+          "A9",
+          "M10",
+          "A11"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "A5",
-          "M6",
-          "m-2"
+          "P5",
+          "M7",
+          "A9",
+          "M10",
+          "A4"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "A5",
-          "M6",
+          "P5",
+          "A9",
           "M10",
-          "M14"
+          "M14",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P1",
-          "A5",
-          "M7",
-          "M10",
-          "M13"
+          "P5",
+          "A9",
+          "A11",
+          "M14",
+          "M17"
         ]
       }
     },
     "scales": {}
   },
-  "XMsus4": {
-    "name": "XMsus4",
+  "_Msus4": {
+    "name": "_Msus4",
     "family": "sus4",
     "pronounce": "major sus four",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "M2"
+      "P4",
+      "P5"
     ],
     "color": [
-      "A4",
-      "m-3",
-      "M3"
+      "M7",
+      "M2",
+      "M6"
     ],
     "priority": [
-      "P1",
-      "M2",
-      "P-4"
+      "P4",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "d-4",
-        "A4",
-        "m-3"
-      ],
       "P1": [
-        "A1"
+        "A1",
+        "M7",
+        "M2"
       ],
-      "M2": [
-        "A1"
+      "P4": [
+        "A4"
+      ],
+      "P5": [
+        "A4"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-11",
           "P-8",
-          "m-7"
+          "P-5",
+          "P-4"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M2",
-          "P5"
+          "P4",
+          "P5",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M2",
           "P5",
-          "P8"
+          "P8",
+          "P11"
         ]
       }
     },
@@ -2275,13 +2298,14 @@
     },
     "extensions": "X7sus4"
   },
-  "Xsus4": {
-    "same": "XMsus4"
+  "_sus4": {
+    "same": "_Msus4"
   },
-  "XM7b6": {
-    "name": "XM7b6",
+  "_M7b6": {
+    "name": "_M7b6",
     "family": "major",
     "pronounce": "major seven flat six",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -2335,51 +2359,52 @@
       "P1": "harmonic major"
     }
   },
-  "X4": {
-    "name": "X4",
+  "_4": {
+    "name": "_4",
     "family": "sus4",
     "pronounce": "four",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
       "P4",
-      "M-2"
+      "m7",
+      "m3"
     ],
     "color": [
+      "P5",
       "M2",
-      "m-3",
-      "M3"
+      "M6"
     ],
     "priority": [
-      "P1",
       "P4",
-      "M-2",
-      "P-4"
+      "m7",
+      "m3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4",
-        "m-3"
-      ],
       "P1": [
-        "A1"
+        "M7",
+        "A1",
+        "M2"
       ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "M-2": [
-        "M-3"
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "m3": [
+        "m2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
           "P4",
-          "m7"
+          "m7",
+          "m10"
         ]
       }
     },
@@ -2391,68 +2416,69 @@
     },
     "extensions": "X7sus4"
   },
-  "Xsusb9": {
-    "same": "X7sus4b9"
+  "_susb9": {
+    "same": "_7sus4b9"
   },
-  "X7susb9": {
-    "same": "X7sus4b9"
+  "_7susb9": {
+    "same": "_7sus4b9"
   },
-  "X7b9sus": {
-    "same": "X7sus4b9"
+  "_7b9sus": {
+    "same": "_7sus4b9"
   },
-  "X7b9sus4": {
-    "same": "X7sus4b9"
+  "_7b9sus4": {
+    "same": "_7sus4b9"
   },
-  "Xphryg": {
-    "same": "X7sus4b9"
+  "_phryg": {
+    "same": "_7sus4b9"
   },
-  "X9no5": {
-    "name": "X9no5",
+  "_9no5": {
+    "name": "_9no5",
     "family": "dominant",
     "pronounce": "nine no five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "P4",
-      "m-3"
+      "P1",
+      "M3",
+      "m7",
+      "M2"
     ],
     "color": [
-      "M2",
-      "M3",
-      "M-3"
+      "P5",
+      "M6",
+      "m2"
     ],
     "priority": [
-      "m-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "M2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4",
-        "m-3"
+      "P1": [
+        "M7",
+        "A1",
+        "M2"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "M-2",
-        "d-4"
+      "M2": [
+        "m3",
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "P4",
-          "M6"
+          "M3",
+          "m7",
+          "M9"
         ]
       }
     },
@@ -2466,10 +2492,11 @@
     "extensions": "X9 X7b9 X7#5#9",
     "substitute": "Gb7 Dbo7"
   },
-  "XM#5": {
-    "name": "XM#5",
+  "_M#5": {
+    "name": "_M#5",
     "family": "augmented",
     "pronounce": "major sharp five",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -2551,16 +2578,17 @@
     },
     "extensions": "XM7#5"
   },
-  "Xmaj#5": {
-    "same": "XM#5"
+  "_maj#5": {
+    "same": "_M#5"
   },
-  "XMaj#5": {
-    "same": "XM#5"
+  "_Maj#5": {
+    "same": "_M#5"
   },
-  "XM7#5": {
-    "name": "XM7#5",
+  "_M7#5": {
+    "name": "_M7#5",
     "family": "augmented",
     "pronounce": "major seven sharp five",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -2637,16 +2665,17 @@
     },
     "extensions": "XM9#5"
   },
-  "Xmaj7#5": {
-    "same": "XM7#5"
+  "_maj7#5": {
+    "same": "_M7#5"
   },
-  "XMaj7#5": {
-    "same": "XM7#5"
+  "_Maj7#5": {
+    "same": "_M7#5"
   },
-  "XM9#5": {
-    "name": "XM9#5",
+  "_M9#5": {
+    "name": "_M9#5",
     "family": "augmented",
     "pronounce": "major nine sharp five",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -2729,16 +2758,17 @@
       "M3": "flat six pentatonic"
     }
   },
-  "Xmaj9#5": {
-    "same": "XM7#5"
+  "_maj9#5": {
+    "same": "_M7#5"
   },
-  "XMaj9#5": {
-    "same": "XM9#5"
+  "_Maj9#5": {
+    "same": "_M9#5"
   },
-  "XM#5add9": {
-    "name": "XM#5add9",
+  "_M#5add9": {
+    "name": "_M#5add9",
     "family": "augmented",
     "pronounce": "major sharp five add 9",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -2816,10 +2846,11 @@
     },
     "extensions": "XM9#5"
   },
-  "XM7sus4": {
-    "name": "XM7sus4",
+  "_M7sus4": {
+    "name": "_M7sus4",
     "family": "sus4",
     "pronounce": "major seven sus four",
+    "key": "c",
     "spell": [
       "P1",
       "P4",
@@ -2877,10 +2908,11 @@
     },
     "extensions": "XM9sus4"
   },
-  "XM9sus4": {
-    "name": "XM9sus4",
+  "_M9sus4": {
+    "name": "_M9sus4",
     "family": "sus4",
     "pronounce": "major nine sus four",
+    "key": "c",
     "spell": [
       "P1",
       "P4",
@@ -2942,61 +2974,62 @@
     },
     "extensions": "XM9sus4"
   },
-  "XM7#5sus4": {
-    "name": "XM7#5sus4",
+  "_M7#5sus4": {
+    "name": "_M7#5sus4",
     "family": "augmented",
     "pronounce": "major seven sharp five sus four",
+    "key": "eb",
     "spell": [
-      "m-3",
-      "M2",
-      "A3",
-      "A5"
+      "P1",
+      "P4",
+      "A5",
+      "M7"
     ],
     "color": [
-      "m-2",
-      "A1"
+      "M2",
+      "M3"
     ],
     "priority": [
+      "M7",
       "A5",
-      "A3",
-      "M2",
-      "m-3"
+      "P4",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "d-3",
-        "m-2"
-      ],
-      "M2": [
+      "P1": [
         "A1",
-        "A2"
+        "M2"
       ],
-      "A3": [
+      "P4": [
         "M3",
         "A4"
       ],
       "A5": [
-        "m-3",
-        "P5"
+        "P5",
+        "M6"
+      ],
+      "M7": [
+        "P1",
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "A3",
+          "P4",
           "A5",
-          "M7"
+          "M7",
+          "M9"
         ]
       },
       "open-1": {
         "type": "open",
         "notes": [
-          "A3",
-          "M7",
+          "A5",
           "M9",
-          "A5"
+          "P11",
+          "M7"
         ]
       }
     },
@@ -3005,70 +3038,71 @@
     },
     "extensions": "XM9#5"
   },
-  "XM9#5sus4": {
-    "name": "XM9#5sus4",
+  "_M9#5sus4": {
+    "name": "_M9#5sus4",
     "family": "augmented",
     "pronounce": "major nine sharp five sus four",
+    "key": "eb",
     "spell": [
-      "m-3",
-      "M2",
-      "A3",
+      "P1",
+      "P4",
       "A5",
-      "m-2"
+      "M7",
+      "M2"
     ],
     "priority": [
+      "M7",
       "A5",
-      "A3",
+      "P4",
       "M2",
-      "m-2",
-      "m-3"
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "d-3"
-      ],
-      "m-2": [
-        "d-3"
+      "P1": [
+        "A1"
       ],
       "M2": [
-        "A1",
-        "A2"
+        "A1"
       ],
-      "A3": [
+      "P4": [
         "M3",
         "A4"
       ],
       "A5": [
-        "m-3",
-        "P5"
+        "P5",
+        "M6"
+      ],
+      "M7": [
+        "P1",
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "A3",
+          "P4",
           "A5",
-          "M7"
+          "M7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A5",
           "M7",
           "M9",
-          "A10"
+          "P11",
+          "A12"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "A3",
-          "M7",
+          "A5",
           "M9",
-          "A12"
+          "P11",
+          "M14"
         ]
       }
     },
@@ -3076,22 +3110,23 @@
       "P1": "diminished"
     }
   },
-  "X+": {
-    "same": "XM#5"
+  "_+": {
+    "same": "_M#5"
   },
-  "Xaug": {
-    "same": "XM#5"
+  "_aug": {
+    "same": "_M#5"
   },
-  "XM7+": {
-    "same": "XM7#5"
+  "_M7+": {
+    "same": "_M7#5"
   },
-  "X+add9": {
-    "same": "XM#5add9"
+  "_+add9": {
+    "same": "_M#5add9"
   },
-  "X+add#9": {
-    "name": "X+add#9",
+  "_+add#9": {
+    "name": "_+add#9",
     "family": "augmented",
     "pronounce": "augmented add sharp 9",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -3149,10 +3184,11 @@
       "P1": "augmented"
     }
   },
-  "XM7b9": {
-    "name": "XM7b9",
+  "_M7b9": {
+    "name": "_M7b9",
     "family": "major",
     "pronounce": "major seven flat nine",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -3214,10 +3250,11 @@
       "P1": "lydian augmented"
     }
   },
-  "XMb6": {
-    "name": "XMb6",
+  "_Mb6": {
+    "name": "_Mb6",
     "family": "major",
     "pronounce": "major flat six",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -3265,93 +3302,94 @@
       "P1": "harmonic major"
     }
   },
-  "Xm": {
-    "name": "Xm",
+  "_m": {
+    "name": "_m",
     "family": "minor",
     "pronounce": "minor",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3"
+      "m3",
+      "P5"
     ],
     "color": [
-      "m-2",
       "M2",
       "P4",
-      "m3",
-      "A4",
-      "P5",
-      "A5"
+      "m6",
+      "d5",
+      "M6",
+      "m7",
+      "M7"
     ],
     "priority": [
-      "P1",
-      "M3",
-      "m-3"
+      "m3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3",
-        "m-2"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1",
         "M2"
       ],
-      "M3": [
-        "A2",
-        "A3",
-        "A4"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4",
+        "A5",
+        "M6"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "M6"
+          "m3",
+          "P5",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M3",
-          "M6",
-          "P8"
+          "P5",
+          "P8",
+          "m10"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "M6",
-          "M10"
+          "m3",
+          "P8",
+          "P12"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "M3",
-          "P8",
-          "M13"
+          "P5",
+          "m10",
+          "P15"
         ]
       },
       "open-C": {
         "type": "open",
         "notes": [
-          "P-8",
-          "m-3",
-          "M3"
+          "M-6",
+          "P1",
+          "P5"
         ]
       },
       "open-D": {
         "type": "open",
         "notes": [
-          "m-10",
-          "m-6",
-          "P1"
+          "P-8",
+          "P-4",
+          "m3"
         ]
       }
     },
@@ -3374,117 +3412,118 @@
     "extensions": "Xm6 Xm7 Xmadd9",
     "substitute": "Xo F9 AbM7"
   },
-  "Xm7": {
-    "name": "Xm7",
+  "_m7": {
+    "name": "_m7",
     "family": "minor7",
     "pronounce": "minor seven",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "P-5",
-      "m-3",
-      "P1"
+      "P1",
+      "m3",
+      "P5",
+      "m7"
     ],
     "color": [
-      "m-6",
-      "P-4",
-      "m-2"
+      "M2",
+      "P4",
+      "M6"
     ],
     "priority": [
-      "P-5",
-      "P1",
-      "m-3",
-      "m-7"
+      "m3",
+      "m7",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "d-7",
-        "m-6"
-      ],
-      "P-5": [
-        "m-6",
-        "d-5",
-        "P-4"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7",
+        "A1",
+        "M2"
+      ],
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "open",
         "notes": [
-          "d-13",
-          "m-10",
-          "d-9",
-          "m-7"
+          "d-7",
+          "P-4",
+          "d-3",
+          "P1"
         ]
       },
       "left-hand-B": {
         "type": "open",
         "notes": [
-          "d-9",
-          "m-7",
-          "d-6",
-          "m-3"
+          "d-3",
+          "P1",
+          "A2",
+          "P5"
         ]
       },
       "left-hand-C": {
         "type": "open",
         "notes": [
-          "m-10",
-          "d-9",
-          "d-6"
+          "P-4",
+          "d-3",
+          "A2"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M2",
-          "P4",
-          "P8"
+          "P5",
+          "P8",
+          "m10",
+          "m14"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "M2",
-          "M6"
+          "m3",
+          "m7",
+          "P8",
+          "P12"
         ]
       },
       "two-hand-C": {
         "type": "open",
         "notes": [
-          "d-9",
-          "m-7",
-          "d-6",
-          "m-3"
+          "d-3",
+          "P1",
+          "A2",
+          "P5"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "P15",
-          "P-12",
-          "m-10",
-          "m-7"
+          "m21",
+          "M-6",
+          "P-4",
+          "P1"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "P-12",
-          "P-8",
-          "m-7",
-          "m-3"
+          "M-6",
+          "M-2",
+          "P1",
+          "P5"
         ]
       }
     },
@@ -3515,118 +3554,119 @@
     "extensions": "Xm9 Xm11 Xm13",
     "substitute": "Am7b5 EbM Xm7b5 AbM9"
   },
-  "Xm6": {
-    "name": "Xm6",
+  "_m6": {
+    "name": "_m6",
     "family": "minor",
     "pronounce": "minor six",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M2",
-      "M3",
-      "A4"
+      "m3",
+      "P4",
+      "P5",
+      "M6"
     ],
     "color": [
-      "m-2",
       "M2",
-      "A5"
+      "P4",
+      "M7"
     ],
     "priority": [
-      "P1",
-      "A4",
-      "M3",
-      "m-3"
+      "m3",
+      "M6",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3",
-        "m-2"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1",
         "M2"
       ],
-      "M3": [
-        "A2",
-        "A3"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "A4": [
-        "A3"
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "A4",
-          "P8",
-          "M13",
-          "M17"
+          "M6",
+          "m10",
+          "P15",
+          "P19"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "A18",
-          "P-8",
-          "m-6",
-          "m-3"
+          "M20",
+          "M-6",
+          "P-4",
+          "P1"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P-8",
-          "m-6",
-          "d-5",
-          "m-3"
+          "M-6",
+          "P-4",
+          "m-3",
+          "P1"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A18",
-          "m-10",
-          "P1",
-          "m-6"
+          "M20",
+          "P-8",
+          "m3",
+          "P-4"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "A18",
-          "P-8",
-          "m-6",
-          "m-3"
+          "M20",
+          "M-6",
+          "P-4",
+          "P1"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "m-10",
-          "m-6",
-          "d-5",
-          "P1"
+          "P-8",
+          "P-4",
+          "m-3",
+          "m3"
         ]
       },
       "drop-2-C": {
         "type": "open",
         "notes": [
-          "P-8",
-          "d-5",
+          "M-6",
           "m-3",
-          "M3"
+          "P1",
+          "P5"
         ]
       },
       "drop-2-D": {
         "type": "open",
         "notes": [
-          "m-6",
-          "m-3",
+          "P-4",
           "P1",
-          "A4"
+          "m3",
+          "M6"
         ]
       }
     },
@@ -3643,84 +3683,85 @@
     "extensions": "Xm69",
     "substitute": "Am7b5 XmM7"
   },
-  "Xm69": {
-    "name": "Xm69",
+  "_m69": {
+    "name": "_m69",
     "family": "minor",
     "pronounce": "minor six nine",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3",
-      "A4",
-      "m-2"
+      "m3",
+      "P5",
+      "M6",
+      "M2"
     ],
     "color": [
-      "M2",
-      "A5"
+      "P4",
+      "M7"
     ],
     "priority": [
-      "P1",
-      "A4",
-      "m-2",
-      "M3",
-      "m-3"
+      "m3",
+      "M6",
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
+        "M7",
+        "A1"
       ],
-      "M3": [
-        "A2",
-        "A3"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "A4": [
-        "A3"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "m-2": [
-        "d-3"
+      "M6": [
+        "A5"
+      ],
+      "M2": [
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "A4",
-          "M7"
+          "m3",
+          "P5",
+          "M6",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A4",
-          "M7",
-          "P8",
-          "M10"
+          "M6",
+          "M9",
+          "m10",
+          "P12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "A4",
-          "P8",
-          "M14",
-          "M17"
+          "M6",
+          "m10",
+          "M16",
+          "P19"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P1",
-          "A4",
-          "M7",
-          "M10"
+          "m3",
+          "M6",
+          "M9",
+          "P12"
         ]
       }
     },
@@ -3735,70 +3776,71 @@
     },
     "substitute": "Am7b5 XmM7"
   },
-  "Xmadd9": {
-    "name": "Xmadd9",
+  "_madd9": {
+    "name": "_madd9",
     "family": "minor",
     "pronounce": "minor add nine",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3",
-      "m-2"
-    ],
-    "color": [
-      "A5",
+      "m3",
       "P5",
-      "A4",
       "M2"
     ],
+    "color": [
+      "M7",
+      "m7",
+      "M6",
+      "P4"
+    ],
     "priority": [
-      "P1",
-      "m-2",
-      "M3",
-      "m-3"
+      "m3",
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
+        "M7",
+        "A1"
       ],
-      "M3": [
-        "A2",
-        "A3",
-        "A4"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "m-2": [
-        "d-3"
+      "P5": [
+        "A4",
+        "A5",
+        "M6"
+      ],
+      "M2": [
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "M7"
+          "m3",
+          "P5",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "P1",
-          "M3"
+          "M2",
+          "m3",
+          "P5"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P8",
-          "M14",
-          "M17"
+          "m10",
+          "M16",
+          "P19"
         ]
       }
     },
@@ -3813,71 +3855,72 @@
     },
     "extensions": "Xm69"
   },
-  "Xmadd4": {
-    "name": "Xmadd4",
+  "_madd4": {
+    "name": "_madd4",
     "family": "minor",
     "pronounce": "minor add four",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M2",
-      "M3"
+      "m3",
+      "P4",
+      "P5"
     ],
     "color": [
-      "A5",
-      "P5",
-      "m-2"
+      "M7",
+      "m7",
+      "M2"
     ],
     "priority": [
-      "P1",
-      "m-2",
-      "M3",
-      "m-3"
+      "m3",
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
-      ],
-      "M3": [
-        "A2",
-        "A3",
-        "A4"
-      ],
-      "M2": [
-        "A2",
+        "M7",
         "A1"
+      ],
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4",
+        "A5",
+        "M6"
+      ],
+      "P4": [
+        "A4",
+        "M3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "M9"
+          "m3",
+          "P5",
+          "P11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M2",
-          "M3"
+          "m3",
+          "P4",
+          "P5"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P8",
-          "M2",
-          "M14",
-          "M17"
+          "m10",
+          "P4",
+          "M16",
+          "P19"
         ]
       }
     },
@@ -3885,59 +3928,60 @@
       "P1": "dorian"
     }
   },
-  "XmM7": {
-    "name": "XmM7",
+  "_mM7": {
+    "name": "_mM7",
     "family": "minor",
     "pronounce": "minor major seven",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3",
-      "A5"
+      "m3",
+      "P5",
+      "M7"
     ],
     "color": [
-      "M2",
-      "A4",
-      "m-2"
+      "P4",
+      "M6",
+      "M2"
     ],
     "priority": [
-      "A5",
-      "P1",
-      "M3",
-      "m-3"
+      "M7",
+      "m3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
+        "A1"
       ],
-      "M3": [
-        "A2",
-        "A3"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "A5": [
-        "P5"
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "A5"
+          "m3",
+          "P5",
+          "M7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A5",
-          "P8",
-          "M10"
+          "M7",
+          "m10",
+          "P12"
         ]
       }
     },
@@ -3960,68 +4004,69 @@
     },
     "substitute": "Xm69"
   },
-  "XmMaj7": {
-    "same": "XmM7"
+  "_mMaj7": {
+    "same": "_mM7"
   },
-  "XmM9": {
-    "name": "XmM9",
+  "_mM9": {
+    "name": "_mM9",
     "family": "minor",
     "pronounce": "minor major nine",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3",
-      "A5",
-      "m-2"
+      "m3",
+      "P5",
+      "M7",
+      "M2"
     ],
     "color": [
-      "M2",
-      "A4"
+      "P4",
+      "M6"
     ],
     "priority": [
-      "A5",
-      "m-2",
-      "P1",
-      "M3",
-      "m-3"
+      "M7",
+      "M2",
+      "m3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
+        "A1"
       ],
-      "M3": [
-        "A2",
-        "A3"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "A5": [
-        "P5"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "m-2": [
-        "d-3"
+      "M7": [
+        "m7"
+      ],
+      "M2": [
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "A5",
-          "M7"
+          "m3",
+          "P5",
+          "M7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A12",
-          "M7",
-          "P8",
-          "M10"
+          "M14",
+          "M9",
+          "m10",
+          "P12"
         ]
       }
     },
@@ -4038,335 +4083,338 @@
     },
     "substitute": "Xm69"
   },
-  "XmMaj9": {
-    "same": "XmM9"
+  "_mMaj9": {
+    "same": "_mM9"
   },
-  "XmM7b6": {
-    "name": "XmM7b6",
+  "_mM7b6": {
+    "name": "_mM7b6",
     "family": "minor",
     "pronounce": "minor major seven flat six",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "M3",
-      "P4",
-      "A5"
+      "m3",
+      "P5",
+      "m6",
+      "M7"
     ],
     "color": [
-      "M2"
+      "P4"
     ],
     "priority": [
-      "A5",
-      "P1",
-      "P4",
-      "M3",
-      "m-3"
+      "M7",
+      "m3",
+      "m6",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1",
-        "M2"
-      ],
-      "M3": [
-        "A2"
-      ],
-      "P4": [
-        "A4"
-      ],
-      "A5": [
-        "P5"
-      ]
-    },
-    "voicings": {
-      "left-hand-A": {
-        "type": "closed",
-        "notes": [
-          "P1",
-          "P4",
-          "A5"
-        ]
-      },
-      "left-hand-B": {
-        "type": "closed",
-        "notes": [
-          "A5",
-          "P8",
-          "P11"
-        ]
-      }
-    },
-    "scales": {
-      "P1": [
-        "harmonic minor",
-        "minor six diminished"
-      ]
-    }
-  },
-  "XmMaj7b6": {
-    "same": "XmM7b6"
-  },
-  "XmM9b6": {
-    "name": "XmM9b6",
-    "family": "minor",
-    "pronounce": "minor major nine flat six",
-    "spell": [
-      "m-3",
-      "P1",
-      "M3",
-      "P4",
-      "A5",
-      "m-2"
-    ],
-    "color": [
-      "M2"
-    ],
-    "priority": [
-      "m-2",
-      "A5",
-      "P1",
-      "P4",
-      "M3",
-      "m-3"
-    ],
-    "approach": {
-      "m-3": [
-        "d-3"
-      ],
-      "P1": [
-        "m-2",
-        "A1",
-        "M2"
-      ],
-      "M3": [
-        "A2"
-      ],
-      "P4": [
-        "A4"
-      ],
-      "A5": [
-        "P5"
-      ]
-    },
-    "voicings": {
-      "left-hand-A": {
-        "type": "closed",
-        "notes": [
-          "P1",
-          "P4",
-          "A5",
-          "m-2"
-        ]
-      },
-      "left-hand-B": {
-        "type": "closed",
-        "notes": [
-          "A5",
-          "m-2",
-          "P8",
-          "P11"
-        ]
-      }
-    },
-    "scales": {
-      "P1": [
-        "harmonic minor",
-        "minor six diminished"
-      ]
-    }
-  },
-  "XmMaj9b6": {
-    "same": "XmM9b6"
-  },
-  "Xm9": {
-    "name": "Xm9",
-    "family": "minor7",
-    "pronounce": "minor nine",
-    "spell": [
-      "m-7",
-      "P-5",
-      "m-3",
-      "P1",
-      "m-6"
-    ],
-    "color": [
-      "m-2",
-      "P-4"
-    ],
-    "priority": [
-      "P-5",
-      "P1",
-      "m-6",
-      "m-3",
-      "m-7"
-    ],
-    "approach": {
-      "m-7": [
-        "A1",
-        "d-7"
-      ],
-      "P-5": [
-        "d-5",
-        "P-4"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
-      "P1": [
-        "m-2",
         "A1"
       ],
-      "m-6": [
-        "d-7"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4"
+      ],
+      "m6": [
+        "M6"
+      ],
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P-5",
-          "m-3",
-          "P1",
-          "M3"
+          "m3",
+          "m6",
+          "M7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M3",
-          "P4",
-          "M6"
+          "M7",
+          "m10",
+          "m13"
+        ]
+      }
+    },
+    "scales": {
+      "P1": [
+        "harmonic minor",
+        "minor six diminished"
+      ]
+    }
+  },
+  "_mMaj7b6": {
+    "same": "_mM7b6"
+  },
+  "_mM9b6": {
+    "name": "_mM9b6",
+    "family": "minor",
+    "pronounce": "minor major nine flat six",
+    "key": "eb",
+    "spell": [
+      "P1",
+      "m3",
+      "P5",
+      "m6",
+      "M7",
+      "M2"
+    ],
+    "color": [
+      "P4"
+    ],
+    "priority": [
+      "M2",
+      "M7",
+      "m3",
+      "m6",
+      "P5",
+      "P1"
+    ],
+    "approach": {
+      "P1": [
+        "A1"
+      ],
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4"
+      ],
+      "m6": [
+        "M6"
+      ],
+      "M7": [
+        "m7"
+      ]
+    },
+    "voicings": {
+      "left-hand-A": {
+        "type": "closed",
+        "notes": [
+          "m3",
+          "m6",
+          "M7",
+          "M2"
+        ]
+      },
+      "left-hand-B": {
+        "type": "closed",
+        "notes": [
+          "M7",
+          "M2",
+          "m10",
+          "m13"
+        ]
+      }
+    },
+    "scales": {
+      "P1": [
+        "harmonic minor",
+        "minor six diminished"
+      ]
+    }
+  },
+  "_mMaj9b6": {
+    "same": "_mM9b6"
+  },
+  "_m9": {
+    "name": "_m9",
+    "family": "minor7",
+    "pronounce": "minor nine",
+    "key": "bb",
+    "spell": [
+      "P1",
+      "m3",
+      "P5",
+      "m7",
+      "M2"
+    ],
+    "color": [
+      "M6",
+      "P4"
+    ],
+    "priority": [
+      "m3",
+      "m7",
+      "M2",
+      "P5",
+      "P1"
+    ],
+    "approach": {
+      "P1": [
+        "M7",
+        "A1"
+      ],
+      "m3": [
+        "M3",
+        "P4"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1"
+      ]
+    },
+    "voicings": {
+      "left-hand-A": {
+        "type": "closed",
+        "notes": [
+          "m3",
+          "P5",
+          "m7",
+          "M9"
+        ]
+      },
+      "left-hand-B": {
+        "type": "closed",
+        "notes": [
+          "m7",
+          "M9",
+          "m10",
+          "P12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
-          "P8",
-          "P11"
+          "P5",
+          "M9",
+          "m14",
+          "m17"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "M3",
-          "M6"
+          "m3",
+          "m7",
+          "M9",
+          "P12"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "P-8",
-          "P-5",
-          "m-3",
-          "M3"
+          "M-2",
+          "m3",
+          "P5",
+          "M9"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
-          "P4",
-          "P8"
+          "P5",
+          "M9",
+          "m10",
+          "m14"
         ]
       },
       "drop-2-C": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "M3",
-          "M6"
+          "m3",
+          "m7",
+          "M9",
+          "P12"
         ]
       },
       "drop-2-D": {
         "type": "open",
         "notes": [
-          "m-6",
-          "m-3",
-          "P1",
-          "P4"
+          "M2",
+          "P5",
+          "m7",
+          "m10"
         ]
       },
       "drop-3-A": {
         "type": "open",
         "notes": [
-          "m-10",
-          "P-5",
-          "P1",
-          "M3"
+          "P-4",
+          "m3",
+          "m7",
+          "M9"
         ]
       },
       "drop-3-B": {
         "type": "open",
         "notes": [
-          "P-12",
-          "m-6",
-          "m-3",
-          "P1"
+          "M-6",
+          "M2",
+          "P5",
+          "m7"
         ]
       },
       "drop-3-C": {
         "type": "open",
         "notes": [
-          "P-8",
-          "m-3",
-          "M3",
-          "P4"
+          "M-2",
+          "P5",
+          "M9",
+          "m10"
         ]
       },
       "drop-2-3-A": {
         "type": "open",
         "notes": [
-          "m-10",
-          "P-8",
-          "P-5",
-          "M3"
+          "P-4",
+          "M-2",
+          "m3",
+          "M9"
         ]
       },
       "drop-2-3-B": {
         "type": "open",
         "notes": [
-          "P-12",
-          "m-10",
-          "m-6",
-          "P1"
+          "M-6",
+          "P-4",
+          "M2",
+          "m7"
         ]
       },
       "drop-2-3-C": {
         "type": "open",
         "notes": [
-          "m-6",
-          "P-5",
-          "P1",
-          "M6"
+          "M2",
+          "m3",
+          "m7",
+          "P12"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "P-5",
-          "m-3",
-          "P1",
-          "M3"
+          "m3",
+          "P5",
+          "m7",
+          "M9"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "P1",
-          "M3",
-          "P4",
-          "M6"
+          "m7",
+          "M9",
+          "m10",
+          "P12"
         ]
       }
     },
@@ -4391,82 +4439,83 @@
     "extensions": "Xm11 Xm13",
     "substitute": "Am7b5 EbM7"
   },
-  "Xm11": {
-    "name": "Xm11",
+  "_m11": {
+    "name": "_m11",
     "family": "minor7",
     "pronounce": "minor eleven",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "P-5",
-      "m-3",
       "P1",
-      "m-6",
-      "P-4"
+      "m3",
+      "P5",
+      "m7",
+      "M2",
+      "P4"
     ],
     "color": [
-      "m-2"
+      "M6"
     ],
     "priority": [
-      "P-4",
-      "P-5",
-      "P1",
-      "m-6",
-      "m-3",
-      "m-7"
+      "P4",
+      "m3",
+      "m7",
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "d-7"
-      ],
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1"
       ],
-      "m-6": [
-        "d-7"
+      "m3": [
+        "M3"
       ],
-      "P-4": [
-        "d-5",
-        "d-4"
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1"
+      ],
+      "P4": [
+        "M3",
+        "A4"
       ]
     },
     "voicings": {
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P15",
-          "m-10",
-          "P-8",
-          "m-6",
-          "P-4"
+          "m21",
+          "P-4",
+          "M-2",
+          "M2",
+          "P4"
         ]
       },
       "so-what": {
         "type": "open",
         "notes": [
-          "M13",
-          "m-14",
-          "P-11",
+          "P19",
           "P-8",
-          "m-6"
+          "P-5",
+          "M-2",
+          "M2"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
-          "P4",
-          "P8",
-          "P12"
+          "P5",
+          "M9",
+          "m10",
+          "m14",
+          "P18"
         ]
       }
     },
@@ -4479,57 +4528,58 @@
     },
     "extensions": "Xm13"
   },
-  "Xm7add11": {
-    "name": "Xm7add11",
+  "_m7add11": {
+    "name": "_m7add11",
     "family": "minor7",
     "pronounce": "minor seven add eleven",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "P-5",
-      "m-3",
       "P1",
-      "P-4"
+      "m3",
+      "P5",
+      "m7",
+      "P4"
     ],
     "color": [
-      "m-2",
-      "m-6"
+      "M6",
+      "M2"
     ],
     "priority": [
-      "P-4",
-      "P-5",
-      "P1",
-      "m-3",
-      "m-7"
+      "P4",
+      "m3",
+      "m7",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "d-7"
-      ],
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1"
       ],
-      "P-4": [
-        "d-5",
-        "d-4"
+      "m3": [
+        "M3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "P4": [
+        "M3",
+        "A4"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "P4",
-          "P8",
-          "P12"
+          "P5",
+          "m10",
+          "m14",
+          "P18"
         ]
       }
     },
@@ -4542,67 +4592,68 @@
     },
     "extensions": "Xm11"
   },
-  "Xm7add4": {
-    "same": "Xm7add11"
+  "_m7add4": {
+    "same": "_m7add11"
   },
-  "Xm13": {
-    "name": "Xm13",
+  "_m13": {
+    "name": "_m13",
     "family": "minor7",
     "pronounce": "minor thirteen",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "P-5",
-      "m-3",
       "P1",
-      "m-6",
-      "P-4",
-      "m-2"
+      "m3",
+      "P5",
+      "m7",
+      "M2",
+      "P4",
+      "M6"
     ],
     "priority": [
-      "P-4",
-      "m-2",
-      "P-5",
-      "P1",
-      "m-6",
-      "m-3",
-      "m-7"
+      "P4",
+      "M6",
+      "m3",
+      "m7",
+      "M2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "d-7"
-      ],
-      "P-5": [
-        "d-5"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "m-6": [
-        "d-7"
+      "m3": [
+        "M3"
       ],
-      "P-4": [
-        "d-5",
-        "d-4"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "m-2": [
-        "d-3"
+      "m7": [
+        "M7"
+      ],
+      "M2": [
+        "A1"
+      ],
+      "P4": [
+        "M3",
+        "A4"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
           "P5",
-          "M7",
-          "P8",
-          "P11"
+          "M9",
+          "P11",
+          "M13",
+          "m14",
+          "m17"
         ]
       }
     },
@@ -4610,75 +4661,76 @@
       "P1": "dorian"
     }
   },
-  "Xm7b5": {
-    "name": "Xm7b5",
+  "_m7b5": {
+    "name": "_m7b5",
     "family": "half-diminished",
     "pronounce": "minor seven flat five",
+    "key": "db",
     "spell": [
-      "m-2",
-      "M2",
-      "P4",
-      "M6"
+      "P1",
+      "m3",
+      "d5",
+      "m7"
     ],
     "color": [
-      "P1",
-      "A1",
-      "M3",
-      "P5",
-      "A5"
+      "m2",
+      "M2",
+      "P4",
+      "m6",
+      "M6"
     ],
     "priority": [
-      "P4",
-      "M2",
-      "M6",
-      "m-2"
+      "d5",
+      "m3",
+      "m7",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "d-2",
-        "A1"
-      ],
-      "M2": [
+      "P1": [
+        "M7",
         "A1",
-        "A2",
-        "M3"
+        "M2"
       ],
-      "P4": [
+      "m3": [
+        "M2",
         "M3",
-        "A4"
+        "P4"
       ],
-      "M6": [
-        "A5",
-        "A6"
+      "d5": [
+        "P4",
+        "P5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "M6",
-          "M7"
+          "m3",
+          "d5",
+          "m7",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M6",
-          "M7",
-          "M9",
-          "P11"
+          "m7",
+          "P8",
+          "m10",
+          "d12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "M9",
-          "M13"
+          "d5",
+          "P8",
+          "m10",
+          "m14"
         ]
       }
     },
@@ -4708,86 +4760,87 @@
     },
     "extensions": "Xm9b5"
   },
-  "Xh7": {
-    "same": "Xm7b5"
+  "_h7": {
+    "same": "_m7b5"
   },
-  "Xmb5": {
-    "same": "Xo"
+  "_mb5": {
+    "same": "_o"
   },
-  "Xm6b5": {
-    "same": "Xo7"
+  "_m6b5": {
+    "same": "_o7"
   },
-  "Xm9b5": {
-    "name": "Xm9b5",
+  "_m9b5": {
+    "name": "_m9b5",
     "family": "half-diminished",
     "pronounce": "minor nine flat five",
+    "key": "db",
     "spell": [
-      "m-2",
-      "M2",
-      "M6",
-      "P4",
-      "A1"
+      "P1",
+      "m3",
+      "m7",
+      "d5",
+      "M2"
     ],
     "color": [
-      "M3",
-      "P5",
-      "A5"
+      "P4",
+      "m6",
+      "M6"
     ],
     "priority": [
+      "m3",
+      "m7",
+      "d5",
       "M2",
-      "M6",
-      "P4",
-      "A1",
-      "m-2"
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "d-2"
+      "P1": [
+        "M7",
+        "A1"
+      ],
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "d5": [
+        "P4",
+        "P5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ],
       "M2": [
-        "A1",
-        "A2",
-        "M3"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "M6": [
-        "A5",
-        "A6"
-      ],
-      "A1": [
-        "d-2"
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "M6",
-          "A8"
+          "m3",
+          "d5",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M6",
-          "A8",
+          "m7",
           "M9",
-          "P11"
+          "m10",
+          "d12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M9",
-          "M13",
-          "A15"
+          "d5",
+          "m10",
+          "m14",
+          "M16"
         ]
       }
     },
@@ -4802,64 +4855,65 @@
     },
     "extensions": "Xm11b5"
   },
-  "Xh9": {
-    "same": "Xm9b5"
+  "_h9": {
+    "same": "_m9b5"
   },
-  "Xm11b5": {
-    "name": "Xm11b5",
+  "_m11b5": {
+    "name": "_m11b5",
     "family": "half-diminished",
     "pronounce": "minor eleven flat five",
+    "key": "db",
     "spell": [
-      "m-2",
+      "P1",
+      "m3",
+      "m7",
+      "d5",
       "M2",
-      "M6",
-      "P4",
-      "A1",
-      "M3"
+      "P4"
     ],
     "color": [
-      "P5"
+      "m6"
     ],
     "priority": [
-      "M3",
-      "M2",
-      "M6",
       "P4",
-      "A1",
-      "m-2"
+      "m3",
+      "m7",
+      "d5",
+      "M2",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "d-2"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "M2": [
-        "A1",
-        "A2"
-      ],
-      "M3": [
-        "A2"
+      "m3": [
+        "M2",
+        "M3"
       ],
       "P4": [
-        "A4"
+        "M3"
       ],
-      "M6": [
-        "A5",
-        "A6"
+      "d5": [
+        "P5"
       ],
-      "A1": [
-        "d-2"
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M9",
-          "M13",
-          "A15",
-          "M17"
+          "d5",
+          "m10",
+          "m14",
+          "M16",
+          "P18"
         ]
       }
     },
@@ -4869,74 +4923,75 @@
       "m7": "harmonic major"
     }
   },
-  "Xh11": {
-    "same": "Xm11b5"
+  "_h11": {
+    "same": "_m11b5"
   },
-  "Xm#5": {
-    "name": "Xm#5",
+  "_m#5": {
+    "name": "_m#5",
     "family": "minor",
     "pronounce": "minor sharp five",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "A3"
+      "m3",
+      "A5"
     ],
     "color": [
-      "A5",
-      "M2",
-      "m-2"
+      "M7",
+      "P4",
+      "M2"
     ],
     "priority": [
-      "P1",
-      "A3",
-      "m-3"
+      "m3",
+      "A5",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3",
-        "m-2"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1",
         "M2"
       ],
-      "A3": [
-        "A4"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "A5": [
+        "M6"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A3",
-          "M6"
+          "m3",
+          "A5",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A3",
-          "M6",
-          "P8"
+          "A5",
+          "P8",
+          "m10"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "M6",
-          "A10"
+          "m3",
+          "P8",
+          "A12"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "A3",
-          "P8",
-          "M13"
+          "A5",
+          "m10",
+          "P15"
         ]
       }
     },
@@ -4948,81 +5003,82 @@
       ]
     }
   },
-  "Xm+": {
-    "same": "Xm#5"
+  "_m+": {
+    "same": "_m#5"
   },
-  "Xmb6": {
-    "same": "Xm#5"
+  "_mb6": {
+    "same": "_m#5"
   },
-  "Xmb6b9": {
-    "name": "Xmb6b9",
+  "_mb6b9": {
+    "name": "_mb6b9",
     "family": "minor",
     "pronounce": "minor flat six flat nine",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "P4",
-      "M-2"
+      "m3",
+      "m6",
+      "m2"
     ],
     "color": [
-      "A5",
-      "M2"
+      "M7",
+      "P4"
     ],
     "priority": [
-      "P1",
-      "M-2",
-      "P4",
-      "m-3"
+      "m3",
+      "m2",
+      "m6",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5"
-      ],
       "P1": [
-        "m-2",
-        "A1",
+        "M7"
+      ],
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "m6": [
+        "M6"
+      ],
+      "m2": [
         "M2"
-      ],
-      "P4": [
-        "A4"
-      ],
-      "M-2": [
-        "m-2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "P4",
-          "m7"
+          "m3",
+          "m6",
+          "m9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "m7",
-          "P8"
+          "m6",
+          "m9",
+          "m10"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "M6",
-          "A10",
-          "m14"
+          "m3",
+          "P8",
+          "A12",
+          "m16"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "A3",
-          "m7",
-          "P8",
-          "M13"
+          "A5",
+          "m9",
+          "m10",
+          "P15"
         ]
       }
     },
@@ -5030,77 +5086,78 @@
       "P1": "phrygian"
     }
   },
-  "Xmb6M7": {
-    "name": "Xmb6M7",
+  "_mb6M7": {
+    "name": "_mb6M7",
     "family": "minor",
     "pronounce": "minor flat six major 7",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "P4",
-      "A5"
+      "m3",
+      "m6",
+      "M7"
     ],
     "color": [
-      "M2",
-      "m-2"
+      "P4",
+      "M2"
     ],
     "priority": [
-      "A5",
-      "P1",
-      "P4",
-      "m-3"
+      "M7",
+      "m3",
+      "m6",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3",
-        "m-2"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1",
         "M2"
       ],
-      "P4": [
-        "A4"
+      "m3": [
+        "M2",
+        "M3",
+        "P4"
       ],
-      "A5": [
-        "P5"
+      "m6": [
+        "M6"
+      ],
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "P4",
-          "A5"
+          "m3",
+          "m6",
+          "M7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A5",
-          "P8"
+          "m6",
+          "M7",
+          "m10"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "A5",
-          "M6",
-          "A10"
+          "m3",
+          "M7",
+          "P8",
+          "A12"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "A3",
-          "P8",
-          "A12",
-          "M13"
+          "A5",
+          "m10",
+          "M14",
+          "P15"
         ]
       }
     },
@@ -5108,61 +5165,62 @@
       "P1": "harmonic minor"
     }
   },
-  "Xm7#5": {
-    "name": "Xm7#5",
+  "_m7#5": {
+    "name": "_m7#5",
     "family": "minor7",
     "pronounce": "minor seven sharp five",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "P4",
-      "P5"
+      "m3",
+      "m6",
+      "m7"
     ],
     "color": [
-      "m-2",
-      "M2"
+      "M2",
+      "P4"
     ],
     "priority": [
-      "P4",
-      "P1",
-      "P5",
-      "m-3"
+      "m6",
+      "m3",
+      "m7",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3",
-        "m-2"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1",
         "M2"
       ],
-      "P4": [
+      "m3": [
+        "M2",
         "M3",
-        "A4"
+        "P4"
       ],
-      "P5": [
-        "A4",
-        "A5"
+      "m6": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A3",
-          "P5"
+          "m3",
+          "A5",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A3",
-          "P5",
-          "P8"
+          "A5",
+          "m7",
+          "m10"
         ]
       }
     },
@@ -5174,62 +5232,63 @@
     },
     "extensions": "Xm9#5"
   },
-  "Xm9#5": {
-    "name": "Xm9#5",
+  "_m9#5": {
+    "name": "_m9#5",
     "family": "minor7",
     "pronounce": "minor nine sharp five",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "P4",
-      "P5",
-      "m-2"
-    ],
-    "color": [
+      "m3",
+      "m6",
+      "m7",
       "M2"
     ],
+    "color": [
+      "P4"
+    ],
     "priority": [
-      "P4",
-      "m-2",
-      "P1",
-      "P5",
-      "m-3"
+      "m6",
+      "M2",
+      "m3",
+      "m7",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3"
-      ],
       "P1": [
-        "A1",
-        "M2"
+        "M7",
+        "A1"
       ],
-      "P4": [
+      "m3": [
         "M3",
-        "A4"
+        "P4"
       ],
-      "P5": [
-        "A4",
-        "A5"
+      "m6": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A3",
-          "P5",
-          "M7"
+          "m3",
+          "A5",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "A3",
-          "P5",
-          "M7",
-          "P8"
+          "A5",
+          "m7",
+          "M9",
+          "m10"
         ]
       }
     },
@@ -5241,62 +5300,63 @@
     },
     "extensions": "Xm11#5"
   },
-  "Xm11#5": {
-    "name": "Xm11#5",
+  "_m11#5": {
+    "name": "_m11#5",
     "family": "minor7",
     "pronounce": "minor eleven sharp five",
+    "key": "eb",
     "spell": [
-      "m-3",
       "P1",
-      "P4",
-      "P5",
-      "m-2",
-      "M2"
+      "m3",
+      "m6",
+      "m7",
+      "M2",
+      "P4"
     ],
     "priority": [
-      "M2",
       "P4",
-      "m-2",
-      "P1",
-      "P5",
-      "m-3"
+      "m6",
+      "M2",
+      "m3",
+      "m7",
+      "P1"
     ],
     "approach": {
-      "m-3": [
-        "A5",
-        "d-3"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m3": [
+        "M3"
       ],
-      "P5": [
-        "A4",
-        "A5"
+      "m6": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A3",
-          "P5",
-          "M7",
-          "M9"
+          "m3",
+          "A5",
+          "m7",
+          "M9",
+          "P11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M2",
-          "A3",
-          "P5",
-          "M7",
-          "P8"
+          "P4",
+          "A5",
+          "m7",
+          "M9",
+          "m10"
         ]
       }
     },
@@ -5307,10 +5367,11 @@
       ]
     }
   },
-  "Xaddb9": {
-    "name": "Xaddb9",
+  "_addb9": {
+    "name": "_addb9",
     "family": "major",
     "pronounce": "major add flat nine",
+    "key": "c",
     "spell": [
       "P1",
       "M3",
@@ -5381,147 +5442,148 @@
       "m2": "diminished"
     }
   },
-  "X7": {
-    "name": "X7",
+  "_7": {
+    "name": "_7",
     "family": "dominant",
     "pronounce": "seven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4"
+      "P1",
+      "M3",
+      "P5",
+      "m7"
     ],
     "color": [
-      "M3",
-      "A1",
-      "M-3",
-      "m-3",
-      "d-3",
+      "M6",
+      "A4",
+      "m2",
+      "M2",
       "A2",
-      "P1"
+      "A5",
+      "P4"
     ],
     "priority": [
-      "P4",
-      "m-2",
-      "M2",
-      "P-4"
+      "m7",
+      "M3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4",
-        "m-3"
-      ],
-      "m-2": [
-        "P1",
-        "M-2"
-      ],
-      "M2": [
+      "P1": [
+        "M7",
         "A1",
-        "A2"
+        "M2"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "M3": [
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "two-hand-C": {
         "type": "open",
         "notes": [
-          "P18",
-          "m-7",
-          "P-5",
-          "m-2"
+          "m21",
+          "P-4",
+          "M-2",
+          "M3"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "M14",
-          "P18",
-          "m-7",
-          "m-2"
+          "M17",
+          "m21",
+          "P-4",
+          "M3"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M16",
-          "P18",
-          "m-9",
-          "m-7",
-          "P-5"
+          "P19",
+          "m21",
+          "m-6",
+          "P-4",
+          "M-2"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "M2",
-          "P4"
+          "M3",
+          "P5",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "M9"
+          "m7",
+          "M10",
+          "P12"
         ]
       },
       "left-hand-C": {
         "type": "open",
         "notes": [
-          "M16",
-          "P18",
-          "m-9",
-          "m-7"
+          "P19",
+          "m21",
+          "m-6",
+          "P-4"
         ]
       },
       "left-hand-D": {
         "type": "open",
         "notes": [
-          "P18",
-          "m-9",
-          "m-7",
-          "P-5"
+          "m21",
+          "m-6",
+          "P-4",
+          "M-2"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "d-6",
-          "m-2",
-          "M2",
-          "P5"
+          "d-3",
+          "M3",
+          "P5",
+          "P8"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "P-11",
-          "m-7",
-          "d-6",
-          "m-2"
+          "P-8",
+          "P-4",
+          "d-3",
+          "M3"
         ]
       },
       "drop-2-C": {
         "type": "open",
         "notes": [
-          "m-9",
-          "d-6",
-          "P-4",
-          "M2"
+          "m-6",
+          "d-3",
+          "P1",
+          "P5"
         ]
       },
       "drop-2-D": {
         "type": "open",
         "notes": [
-          "m-7",
           "P-4",
-          "m-2",
-          "A3"
+          "P1",
+          "M3",
+          "A6"
         ]
       }
     },
@@ -5554,65 +5616,66 @@
     "extensions": "X9 X7b9 X7#9 X7b13",
     "substitute": "Gb7 Gm7 Dbo7 GmM7 X7#5"
   },
-  "X7no5": {
-    "name": "X7no5",
+  "_7no5": {
+    "name": "_7no5",
     "family": "dominant",
     "pronounce": "seven no five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "P4"
+      "P1",
+      "M3",
+      "m7"
     ],
     "color": [
-      "M3",
-      "m3",
-      "d-3",
-      "A1",
-      "M-3",
-      "m-3"
+      "M6",
+      "m6",
+      "A2",
+      "A4",
+      "m2",
+      "M2"
     ],
     "priority": [
-      "P4",
-      "m-2",
-      "P-4"
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4",
-        "m-3"
+      "P1": [
+        "M7",
+        "A1",
+        "M2"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "open",
         "notes": [
-          "m-9",
-          "P-5",
-          "P-4"
+          "m-6",
+          "M-2",
+          "P1"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7"
+          "m7",
+          "M10"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P18",
-          "m-9",
-          "P-4"
+          "m21",
+          "m-6",
+          "P1"
         ]
       }
     },
@@ -5627,76 +5690,77 @@
     "extensions": "X9no5 X7b9 X7#5#9",
     "substitute": "Gb7 Dbo7"
   },
-  "X7b9": {
-    "name": "X7b9",
+  "_7b9": {
+    "name": "_7b9",
     "family": "dominant",
     "pronounce": "seven flat nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2"
     ],
     "color": [
-      "M3",
-      "m3",
-      "A1",
-      "d-3"
+      "M6",
+      "m6",
+      "A4",
+      "A2"
     ],
     "priority": [
-      "M-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "m2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A1",
-        "A2"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "M2",
-          "P4",
-          "m6"
+          "M3",
+          "P5",
+          "m7",
+          "m9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "m6",
-          "M7",
-          "M9"
+          "m7",
+          "m9",
+          "M10",
+          "P12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "M7",
-          "P11",
-          "m13"
+          "P5",
+          "M10",
+          "m14",
+          "m16"
         ]
       }
     },
@@ -5713,71 +5777,72 @@
     },
     "extensions": "X7b9#11 X13b9#11 X7b9b13"
   },
-  "X7b9#9": {
-    "name": "X7b9#9",
+  "_7b9#9": {
+    "name": "_7b9#9",
     "family": "dominant",
     "pronounce": "seven flat nine sharp 9",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "d-3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "A2"
     ],
     "color": [
-      "M3",
-      "m3",
-      "A1"
+      "M6",
+      "m6",
+      "A4"
     ],
     "priority": [
-      "d-3",
-      "M-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "A2",
+      "m2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A1",
-        "A2"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ],
-      "d-3": [
-        "m-3"
+      "A2": [
+        "M2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "M2",
-          "P4",
-          "m6"
+          "M3",
+          "P5",
+          "m7",
+          "m9"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "M7",
-          "P11",
-          "m13"
+          "P5",
+          "M10",
+          "m14",
+          "m16"
         ]
       }
     },
@@ -5794,97 +5859,98 @@
     },
     "extensions": "X7b9#11 X13b9#11 X7b9b13"
   },
-  "X7#5": {
-    "name": "X7#5",
+  "_7#5": {
+    "name": "_7#5",
     "family": "dominant",
     "pronounce": "seven sharp five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4"
+      "P1",
+      "M3",
+      "A5",
+      "m7"
     ],
     "color": [
-      "d-3",
-      "M-3",
-      "A1",
-      "m-3"
+      "A2",
+      "m2",
+      "A4",
+      "M2"
     ],
     "priority": [
-      "A2",
-      "P4",
-      "m-2",
-      "P-4"
+      "A5",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "A2": [
-        "M2",
-        "M3"
+      "A5": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ],
-      "A1": [
-        "P1",
-        "M2"
+      "A4": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M14",
-          "P18",
-          "P-11",
-          "d-7"
+          "M17",
+          "m21",
+          "P-8",
+          "d-4"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "A16",
-          "P18",
-          "P-11",
-          "m-9"
+          "A19",
+          "m21",
+          "P-8",
+          "m-6"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P-11",
-          "m-9",
-          "M-6",
-          "P-5"
+          "P-8",
+          "m-6",
+          "M-3",
+          "M-2"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "A9"
+          "m7",
+          "M10",
+          "A12"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P18",
-          "m-9",
-          "M-6",
-          "P-4"
+          "m21",
+          "m-6",
+          "M-3",
+          "P1"
         ]
       }
     },
@@ -5900,87 +5966,88 @@
     "extensions": "X7#5#9 X7#5b9",
     "substitute": "Db9b5"
   },
-  "X+7": {
-    "same": "X7#5"
+  "_+7": {
+    "same": "_7#5"
   },
-  "X7+": {
-    "same": "X7#5"
+  "_7+": {
+    "same": "_7#5"
   },
-  "X7aug": {
-    "same": "X7#5"
+  "_7aug": {
+    "same": "_7#5"
   },
-  "Xaug7": {
-    "same": "X7#5"
+  "_aug7": {
+    "same": "_7#5"
   },
-  "X7#9": {
-    "name": "X7#9",
+  "_7#9": {
+    "name": "_7#9",
     "family": "dominant",
     "pronounce": "seven sharp nine",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "d-5",
-      "m-3",
       "P1",
-      "d-6"
+      "M3",
+      "P5",
+      "m7",
+      "A2"
     ],
     "color": [
-      "d-4",
-      "M-2",
-      "M-6",
-      "m-2"
+      "A4",
+      "m6",
+      "m2",
+      "M6"
     ],
     "priority": [
-      "d-6",
-      "P1",
-      "d-5",
-      "m-7"
+      "A2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1"
-      ],
-      "d-5": [
-        "P-4",
-        "P-5"
-      ],
-      "m-3": [
-        "d-4",
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7"
       ],
-      "d-6": [
-        "m-6"
+      "M3": [
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "A2": [
+        "M2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "d-5",
-          "m-3",
-          "P1",
-          "A3"
+          "M3",
+          "P5",
+          "m7",
+          "A9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A3",
-          "A4",
-          "M6"
+          "m7",
+          "A9",
+          "M10",
+          "P12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "A4",
-          "P8",
-          "A10"
+          "P5",
+          "M10",
+          "m14",
+          "A16"
         ]
       }
     },
@@ -5994,91 +6061,92 @@
     },
     "extensions": "X7#9#11"
   },
-  "X7#11": {
-    "name": "X7#11",
+  "_7#11": {
+    "name": "_7#11",
     "family": "dominant",
     "pronounce": "seven sharp eleven",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "d-5",
-      "m-3",
       "P1",
-      "d-4"
+      "M3",
+      "P5",
+      "m7",
+      "A4"
     ],
     "color": [
-      "m-6",
-      "M-2",
-      "m-2",
-      "M-6",
-      "P-5"
+      "M2",
+      "m6",
+      "M6",
+      "m2",
+      "m3"
     ],
     "priority": [
-      "d-4",
+      "A4",
+      "m7",
+      "M3",
       "P1",
-      "d-5",
-      "m-7",
-      "m-3"
+      "P5"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "d-7"
-      ],
-      "d-5": [
-        "P-4",
-        "P-5"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1"
       ],
-      "m-6": [
-        "d-7",
-        "P-5"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "d-4": [
-        "P-4",
-        "m-3"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-3"
+      "M2": [
+        "A1",
+        "m3"
+      ],
+      "A4": [
+        "P4",
+        "P5"
+      ],
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P15",
-          "m-14",
-          "d-12",
-          "M-10"
+          "m21",
+          "P-8",
+          "m-6",
+          "A-4"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P15",
-          "d-12",
-          "M-10",
-          "m-10"
+          "m21",
+          "m-6",
+          "A-4",
+          "P-4"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "A11",
-          "M13",
-          "P15",
-          "M-10"
+          "M17",
+          "P19",
+          "m21",
+          "A-4"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P15",
-          "d-12",
-          "M-10",
-          "m-7"
+          "m21",
+          "m-6",
+          "A-4",
+          "P1"
         ]
       }
     },
@@ -6100,50 +6168,51 @@
     "extensions": "X9#11 X7#9#11",
     "substitute": "Gb7#5#9"
   },
-  "X7#9#11": {
-    "name": "X7#9#11",
+  "_7#9#11": {
+    "name": "_7#9#11",
     "family": "dominant",
     "pronounce": "seven sharp nine sharp eleven",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "d-5",
-      "m-3",
       "P1",
-      "d-6",
-      "d-4"
+      "M3",
+      "P5",
+      "m7",
+      "A2",
+      "A4"
     ],
     "color": [
-      "M-2",
-      "M-6",
-      "m-2"
+      "m6",
+      "m2",
+      "M6"
     ],
     "priority": [
-      "d-4",
-      "d-6",
-      "P1",
-      "d-5",
-      "m-7"
+      "A4",
+      "A2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1"
-      ],
-      "d-5": [
-        "P-4",
-        "P-5"
-      ],
-      "m-3": [
-        "d-3"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7"
       ],
-      "d-6": [
-        "m-6"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "d-4": [
-        "P-4"
+      "P5": [
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "A2": [
+        "M2"
+      ],
+      "A4": [
+        "P4"
       ]
     },
     "voicings": {},
@@ -6155,45 +6224,46 @@
     },
     "extensions": "X7#9#11b13"
   },
-  "X7b5#9": {
-    "same": "X7#9#11"
+  "_7b5#9": {
+    "same": "_7#9#11"
   },
-  "X7#9b13": {
-    "name": "X7#9b13",
+  "_7#9b13": {
+    "name": "_7#9b13",
     "family": "dominant",
     "pronounce": "seven sharp nine flat thirteen",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "d-5",
-      "m-3",
       "P1",
-      "d-6",
-      "M-2"
+      "M3",
+      "P5",
+      "m7",
+      "A2",
+      "m6"
     ],
     "priority": [
-      "M-2",
-      "d-6",
-      "P1",
-      "d-5",
-      "m-7"
+      "m6",
+      "A2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1"
-      ],
-      "d-5": [
-        "P-4",
-        "P-5"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7"
       ],
-      "d-6": [
-        "m-6"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M-2": [
-        "m-2"
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "A2": [
+        "M2"
+      ],
+      "m6": [
+        "M6"
       ]
     },
     "voicings": {},
@@ -6204,50 +6274,51 @@
       ]
     }
   },
-  "X7#9#11b13": {
-    "name": "X7#9#11b13",
+  "_7#9#11b13": {
+    "name": "_7#9#11b13",
     "family": "dominant",
     "pronounce": "seven sharp nine sharp eleven flat thirteen",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "d-5",
-      "m-3",
       "P1",
-      "d-6",
-      "d-4",
-      "M-2"
+      "M3",
+      "P5",
+      "m7",
+      "A2",
+      "A4",
+      "m6"
     ],
     "color": [
-      "M-6"
+      "m2"
     ],
     "priority": [
-      "M-2",
-      "d-4",
-      "d-6",
-      "P1",
-      "d-5",
-      "m-7"
+      "m6",
+      "A4",
+      "A2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "m-7": [
-        "A1"
-      ],
-      "d-5": [
-        "P-4",
-        "P-5"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7"
       ],
-      "d-6": [
-        "m-6"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "d-4": [
-        "P-4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-2": [
-        "m-2"
+      "A2": [
+        "M2"
+      ],
+      "A4": [
+        "P4"
+      ],
+      "m6": [
+        "M6"
       ]
     },
     "voicings": {},
@@ -6258,42 +6329,43 @@
       ]
     }
   },
-  "X7b5": {
-    "name": "X7b5",
+  "_7b5": {
+    "name": "_7b5",
     "family": "dominant",
     "pronounce": "seven flat five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "m2",
-      "P4"
+      "P1",
+      "M3",
+      "d5",
+      "m7"
     ],
     "color": [
-      "m-3",
-      "M3"
+      "M2",
+      "M6"
     ],
     "priority": [
-      "m2",
-      "P4",
-      "m-2",
-      "P-4"
+      "d5",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m2": [
-        "M2",
-        "P1"
+      "d5": [
+        "P5",
+        "P4"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {},
@@ -6307,100 +6379,101 @@
     "extensions": "X9b5",
     "substitute": "Gb7b5b9"
   },
-  "X9": {
-    "name": "X9",
+  "_9": {
+    "name": "_9",
     "family": "dominant",
     "pronounce": "nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "m-3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "M2"
     ],
     "color": [
-      "M3",
-      "A1",
-      "A2",
-      "P1"
+      "M6",
+      "A4",
+      "A5",
+      "P4"
     ],
     "priority": [
-      "m-3",
-      "P4",
-      "m-2",
       "M2",
-      "P-4"
+      "m7",
+      "M3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ],
       "M2": [
         "A1",
-        "A2"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
+        "m3"
       ]
     },
     "voicings": {
       "shout-A": {
         "type": "shout",
         "notes": [
-          "P18",
-          "m-9",
-          "m-7",
-          "P-5",
-          "M2",
+          "m21",
+          "m-6",
+          "P-4",
+          "M-2",
           "P5",
-          "M9"
+          "P8",
+          "P12"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P18",
-          "m-10",
-          "m-9",
+          "m21",
           "m-7",
-          "P-5"
+          "m-6",
+          "P-4",
+          "M-2"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "M2",
-          "P4",
-          "M6"
+          "M3",
+          "P5",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "M9"
+          "m7",
+          "M9",
+          "M10",
+          "P12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "M6",
-          "M7",
-          "P11"
+          "P5",
+          "M9",
+          "M10",
+          "m14"
         ]
       }
     },
@@ -6414,86 +6487,87 @@
     "extensions": "X9#11 X13",
     "substitute": "Gb7 Em7b5"
   },
-  "X9#11": {
-    "name": "X9#11",
+  "_9#11": {
+    "name": "_9#11",
     "family": "dominant",
     "pronounce": "nine sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
+      "P1",
+      "M3",
+      "P5",
+      "m7",
       "M2",
-      "P4",
-      "m-3",
-      "A1"
+      "A4"
     ],
     "color": [
-      "M3"
+      "M6"
     ],
     "priority": [
-      "A1",
-      "P4",
-      "m-2",
-      "m-3",
-      "P-4",
-      "M2"
+      "A4",
+      "m7",
+      "M3",
+      "M2",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ],
-      "A1": [
-        "P1",
-        "M2"
+      "A4": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A1",
-          "P4",
-          "M6"
+          "M3",
+          "A4",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "A8"
+          "m7",
+          "M9",
+          "M10",
+          "A11"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-2",
-          "M6",
-          "P11",
-          "A15"
+          "M3",
+          "M9",
+          "m14",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "A8",
-          "M13"
+          "m7",
+          "M10",
+          "A11",
+          "M16"
         ]
       }
     },
@@ -6507,84 +6581,85 @@
     "extensions": "X13#11",
     "substitute": "Gb7#5#9 GmM7"
   },
-  "X9b5": {
-    "name": "X9b5",
+  "_9b5": {
+    "name": "_9b5",
     "family": "dominant",
     "pronounce": "nine flat five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "m2",
-      "P4",
-      "m-3"
+      "P1",
+      "M3",
+      "d5",
+      "m7",
+      "M2"
     ],
     "color": [
-      "M3"
+      "M6"
     ],
     "priority": [
-      "m-3",
-      "m2",
-      "P4",
-      "m-2",
-      "P-4"
+      "M2",
+      "d5",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m2": [
-        "M2",
-        "P1"
+      "d5": [
+        "P5",
+        "P4"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m2",
-          "P4",
-          "M6"
+          "M3",
+          "d5",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "m9"
+          "m7",
+          "M9",
+          "M10",
+          "d12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M6",
-          "M7",
-          "P11",
-          "m16"
+          "M9",
+          "M10",
+          "m14",
+          "d19"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "m9",
-          "M13"
+          "m7",
+          "M10",
+          "d12",
+          "M16"
         ]
       }
     },
@@ -6597,84 +6672,85 @@
     "extensions": "X13b5",
     "substitute": "Db9b5"
   },
-  "X9#5": {
-    "name": "X9#5",
+  "_9#5": {
+    "name": "_9#5",
     "family": "dominant",
     "pronounce": "nine sharp five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4",
-      "m-3"
+      "P1",
+      "M3",
+      "A5",
+      "m7",
+      "M2"
     ],
     "color": [
-      "A1"
+      "A4"
     ],
     "priority": [
-      "m-3",
-      "A2",
-      "P4",
-      "m-2",
-      "P-4"
+      "M2",
+      "A5",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "A2": [
-        "M2",
-        "M3"
+      "A5": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A2",
-          "P4",
-          "M6"
+          "M3",
+          "A5",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "A9"
+          "m7",
+          "M9",
+          "M10",
+          "A12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M6",
-          "M7",
-          "P11",
-          "A16"
+          "M9",
+          "M10",
+          "m14",
+          "A19"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "A9",
-          "M13"
+          "m7",
+          "M10",
+          "A12",
+          "M16"
         ]
       }
     },
@@ -6683,82 +6759,83 @@
     },
     "extensions": "X9#5#11"
   },
-  "X9+": {
-    "same": "X9#5"
+  "_9+": {
+    "same": "_9#5"
   },
-  "X9#5#11": {
-    "name": "X9#5#11",
+  "_9#5#11": {
+    "name": "_9#5#11",
     "family": "dominant",
     "pronounce": "nine sharp five sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4",
-      "m-3",
-      "A1"
+      "P1",
+      "M3",
+      "A5",
+      "m7",
+      "M2",
+      "A4"
     ],
     "priority": [
-      "A1",
-      "A2",
-      "P4",
-      "m-2",
-      "m-3",
-      "P-4"
+      "A4",
+      "A5",
+      "m7",
+      "M3",
+      "M2",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "A2": [
-        "M2",
-        "M3"
+      "A5": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ],
-      "A1": [
-        "P1",
-        "M2"
+      "A4": [
+        "P4",
+        "P5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A2",
-          "P4",
-          "M6",
-          "A8"
+          "M3",
+          "A5",
+          "m7",
+          "M9",
+          "A11"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m-2",
-          "P4",
-          "A9",
-          "A15"
+          "M3",
+          "m7",
+          "A12",
+          "A18"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "A9",
-          "A15"
+          "m7",
+          "M10",
+          "A12",
+          "A18"
         ]
       }
     },
@@ -6769,42 +6846,43 @@
       ]
     }
   },
-  "X11": {
-    "name": "X11",
+  "_11": {
+    "name": "_11",
     "family": "sus4",
     "pronounce": "eleven",
+    "key": "f",
     "spell": [
-      "P-4",
+      "P1",
+      "P5",
+      "m7",
       "M2",
-      "P4",
-      "m-3",
-      "P1"
+      "P4"
     ],
     "priority": [
-      "P1",
-      "m-3",
       "P4",
       "M2",
-      "P-4"
+      "m7",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "M2": [
-        "A2"
-      ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "P5": [
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1",
+        "m3"
       ]
     },
     "voicings": {},
@@ -6812,43 +6890,44 @@
       "P1": "mixolydian"
     }
   },
-  "X11b9": {
-    "name": "X11b9",
+  "_11b9": {
+    "name": "_11b9",
     "family": "dominant",
     "pronounce": "eleven flat 9",
+    "key": "f",
     "spell": [
-      "P-4",
-      "M2",
-      "P4",
-      "M-3",
-      "P1"
+      "P1",
+      "P5",
+      "m7",
+      "m2",
+      "P4"
     ],
     "priority": [
-      "P1",
-      "M-3",
       "P4",
-      "M2",
-      "P-4"
+      "m2",
+      "m7",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "M2": [
-        "A2"
-      ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "M-3": [
-        "m-3",
-        "M-2",
-        "d-4"
+      "P5": [
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "m2": [
+        "M2",
+        "m3",
+        "A1"
       ]
     },
     "voicings": {},
@@ -6856,188 +6935,189 @@
       "P1": "phrygian"
     }
   },
-  "X13": {
-    "name": "X13",
+  "_13": {
+    "name": "_13",
     "family": "dominant",
     "pronounce": "thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
+      "P1",
+      "M3",
+      "P5",
+      "m7",
       "M2",
-      "P4",
-      "m-3",
-      "M3"
+      "M6"
     ],
     "color": [
-      "M-3",
-      "M-2",
-      "A1"
+      "m2",
+      "m3",
+      "A4"
     ],
     "priority": [
-      "M3",
-      "m-3",
-      "P4",
-      "m-2",
+      "M6",
       "M2",
-      "P-4"
+      "m7",
+      "M3",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M7"
       ],
       "M2": [
         "A1",
-        "A2"
+        "m3"
       ],
-      "P4": [
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
-      ],
-      "M3": [
-        "A2"
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
           "M3",
-          "P4",
-          "M6"
+          "M6",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "M10"
+          "m7",
+          "M9",
+          "M10",
+          "M13"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "m-2",
-          "P4",
-          "M6",
-          "M10"
+          "M3",
+          "m7",
+          "M9",
+          "M13"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
-          "P4",
-          "M7"
+          "M2",
+          "M6",
+          "m7",
+          "M10"
         ]
       },
       "drop-2-C": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
+          "M-2",
           "M3",
-          "M6"
+          "M6",
+          "M9"
         ]
       },
       "drop-2-D": {
         "type": "open",
         "notes": [
-          "m-6",
           "m-3",
-          "m-2",
-          "P4"
+          "M2",
+          "M3",
+          "m7"
         ]
       },
       "drop-3-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "P4",
-          "M7",
-          "M10"
+          "M2",
+          "m7",
+          "M10",
+          "M13"
         ]
       },
       "drop-3-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "M3",
+          "M-2",
           "M6",
-          "M7"
+          "M9",
+          "M10"
         ]
       },
       "drop-3-C": {
         "type": "open",
         "notes": [
-          "m-2",
-          "M6",
-          "M10",
-          "P11"
+          "M3",
+          "M9",
+          "M13",
+          "m14"
         ]
       },
       "drop-2-3-A": {
         "type": "open",
         "notes": [
-          "m-3",
-          "m-2",
-          "P4",
-          "M10"
+          "M2",
+          "M3",
+          "m7",
+          "M13"
         ]
       },
       "drop-2-3-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-3",
-          "M3",
-          "M7"
+          "M-2",
+          "M2",
+          "M6",
+          "M10"
         ]
       },
       "drop-2-3-C": {
         "type": "open",
         "notes": [
-          "M3",
-          "P4",
-          "M7",
-          "M13"
+          "M6",
+          "m7",
+          "M10",
+          "M16"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M3",
           "M6",
-          "M7",
-          "P11"
+          "M9",
+          "M10",
+          "m14"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "m-2",
           "M3",
-          "P4",
-          "M6"
+          "M6",
+          "m7",
+          "M9"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "P4",
-          "M7",
-          "M10"
+          "m7",
+          "M10",
+          "M13"
         ]
       }
     },
@@ -7050,152 +7130,153 @@
     },
     "extensions": "X13#11"
   },
-  "X7add6": {
-    "name": "X7add6",
+  "_7add6": {
+    "name": "_7add6",
     "family": "dominant",
     "pronounce": "seven add 6",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "M6"
     ],
     "color": [
-      "m-3",
-      "A1"
+      "M2",
+      "A4"
     ],
     "priority": [
+      "M6",
+      "m7",
       "M3",
-      "P4",
-      "m-2",
-      "M2",
-      "P-4"
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
-      "m-2": [
-        "P1",
-        "M-2"
-      ],
-      "M2": [
-        "A1",
-        "A2"
-      ],
-      "P4": [
-        "A4"
+      "P1": [
+        "M7",
+        "A1"
       ],
       "M3": [
-        "A2"
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M7"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
           "M3",
-          "P4"
+          "M6",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "M10"
+          "m7",
+          "M10",
+          "M13"
         ]
       },
       "drop-2-A": {
         "type": "open",
         "notes": [
-          "m-2",
-          "P4",
-          "M10"
+          "M3",
+          "m7",
+          "M13"
         ]
       },
       "drop-2-B": {
         "type": "open",
         "notes": [
-          "m-3",
-          "M3",
-          "P4",
-          "M7"
+          "M2",
+          "M6",
+          "m7",
+          "M10"
         ]
       },
       "drop-2-C": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "M3"
+          "M-2",
+          "M3",
+          "M6"
         ]
       },
       "drop-2-D": {
         "type": "open",
         "notes": [
-          "m-6",
-          "m-2",
-          "P4"
+          "m-3",
+          "M3",
+          "m7"
         ]
       },
       "drop-3-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "M10"
+          "m7",
+          "M10",
+          "M13"
         ]
       },
       "drop-3-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "M3",
-          "M7"
+          "M-2",
+          "M6",
+          "M10"
         ]
       },
       "drop-3-C": {
         "type": "open",
         "notes": [
-          "m-2",
-          "M10",
-          "P11"
+          "M3",
+          "M13",
+          "m14"
         ]
       },
       "drop-2-3-A": {
         "type": "open",
         "notes": [
-          "m-2",
-          "P4",
-          "M10"
+          "M3",
+          "m7",
+          "M13"
         ]
       },
       "drop-2-3-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "M3",
-          "M7"
+          "M-2",
+          "M6",
+          "M10"
         ]
       },
       "drop-2-3-C": {
         "type": "open",
         "notes": [
-          "M3",
-          "P4",
-          "M7"
+          "M6",
+          "m7",
+          "M10"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M3",
-          "M7",
-          "P11"
+          "M6",
+          "M10",
+          "m14"
         ]
       }
     },
@@ -7208,101 +7289,102 @@
     },
     "extensions": "X13"
   },
-  "X7add13": {
-    "same": "X7add6"
+  "_7add13": {
+    "same": "_7add6"
   },
-  "X67": {
-    "same": "X7add6"
+  "_67": {
+    "same": "_7add6"
   },
-  "X13no5": {
-    "name": "X13no5",
+  "_13no5": {
+    "name": "_13no5",
     "family": "dominant",
     "pronounce": "thirteen no five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "P4",
-      "m-3",
-      "M3"
+      "P1",
+      "M3",
+      "m7",
+      "M2",
+      "M6"
     ],
     "color": [
-      "M-3",
-      "M-2"
+      "m2",
+      "m3"
     ],
     "priority": [
+      "M6",
+      "M2",
+      "m7",
       "M3",
-      "m-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M7"
       ],
       "M2": [
         "A1",
-        "A2"
+        "m3"
       ],
-      "P4": [
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
-      ],
-      "M3": [
-        "A2"
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
           "M3",
-          "P4",
-          "M6"
+          "M6",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "M10"
+          "m7",
+          "M9",
+          "M10",
+          "M13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "M3",
           "M6",
-          "M7",
-          "P11"
+          "M9",
+          "M10",
+          "m14"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "m-2",
           "M3",
-          "P4",
-          "M6"
+          "M6",
+          "m7",
+          "M9"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "P4",
-          "M7",
-          "M10"
+          "m7",
+          "M10",
+          "M13"
         ]
       }
     },
@@ -7315,72 +7397,73 @@
     },
     "extensions": "X13#11"
   },
-  "X7b13": {
-    "name": "X7b13",
+  "_7b13": {
+    "name": "_7b13",
     "family": "dominant",
     "pronounce": "seven flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "P4",
-      "m3"
+      "P1",
+      "M3",
+      "m7",
+      "m6"
     ],
     "color": [
-      "A1",
-      "m-3",
-      "M-3",
-      "d-3"
+      "A4",
+      "M2",
+      "m2",
+      "A2"
     ],
     "priority": [
-      "m3",
-      "P4",
-      "m-2",
-      "P-4"
+      "m6",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m3": [
-        "M2",
-        "M3"
+      "m6": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m3",
-          "P4",
-          "M6"
+          "M3",
+          "m6",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "m10"
+          "m7",
+          "M9",
+          "M10",
+          "m13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m3",
-          "M6",
-          "M7",
-          "P11"
+          "m6",
+          "M9",
+          "M10",
+          "m14"
         ]
       }
     },
@@ -7395,70 +7478,71 @@
     },
     "extensions": "X9b13"
   },
-  "X7b6": {
-    "name": "X7b6",
+  "_7b6": {
+    "name": "_7b6",
     "family": "dominant",
     "pronounce": "seven flat six",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "m3",
-      "P4"
+      "P1",
+      "M3",
+      "P5",
+      "m6",
+      "m7"
     ],
     "color": [
-      "A1",
-      "m-3",
-      "M-3",
-      "d-3"
+      "A4",
+      "M2",
+      "m2",
+      "A2"
     ],
     "priority": [
-      "m3",
-      "P4",
-      "m-2",
-      "P-4",
-      "M2"
+      "m6",
+      "m7",
+      "M3",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m3": [
-        "M3"
+      "m6": [
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m3",
-          "P4"
+          "M3",
+          "m6",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "m10"
+          "m7",
+          "M10",
+          "m13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m3",
-          "M7",
-          "P11"
+          "m6",
+          "M10",
+          "m14"
         ]
       }
     },
@@ -7466,76 +7550,77 @@
       "P1": "melodic minor fifth mode"
     }
   },
-  "X9b13": {
-    "name": "X9b13",
+  "_9b13": {
+    "name": "_9b13",
     "family": "dominant",
     "pronounce": "nine flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "P4",
-      "m-3",
-      "m3"
+      "P1",
+      "M3",
+      "m7",
+      "M2",
+      "m6"
     ],
     "color": [
-      "A1",
-      "P1"
+      "A4",
+      "P4"
     ],
     "priority": [
-      "m3",
-      "m-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "m6",
+      "M2",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m3": [
-        "M2",
-        "M3"
+      "m6": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "M2": [
+        "A1",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m3",
-          "P4",
-          "M6"
+          "M3",
+          "m6",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "m10"
+          "m7",
+          "M9",
+          "M10",
+          "m13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m3",
-          "M7",
-          "P11",
-          "M13"
+          "m6",
+          "M10",
+          "m14",
+          "M16"
         ]
       }
     },
@@ -7546,86 +7631,87 @@
       ]
     }
   },
-  "X7#11b13": {
-    "name": "X7#11b13",
+  "_7#11b13": {
+    "name": "_7#11b13",
     "family": "dominant",
     "pronounce": "seven sharp eleven flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "A1",
-      "m3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "A4",
+      "m6"
     ],
     "color": [
-      "m-3",
-      "M-3",
-      "d-3"
+      "M2",
+      "m2",
+      "A2"
     ],
     "priority": [
-      "m3",
-      "A1",
-      "P4",
-      "m-2",
-      "P-4",
-      "M2"
+      "m6",
+      "A4",
+      "m7",
+      "M3",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m3": [
-        "M2",
-        "M3"
+      "m6": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
-      ],
-      "A1": [
-        "P1",
-        "M2"
+      "m7": [
+        "M6",
+        "M7"
       ],
       "M2": [
-        "A2"
+        "A1",
+        "m3"
+      ],
+      "A4": [
+        "P4",
+        "P5"
+      ],
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m3",
-          "P4",
-          "A8"
+          "M3",
+          "m6",
+          "m7",
+          "A11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "A8",
-          "m10"
+          "m7",
+          "M10",
+          "A11",
+          "m13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m3",
-          "M7",
-          "P11",
-          "A15"
+          "m6",
+          "M10",
+          "m14",
+          "A18"
         ]
       }
     },
@@ -7637,84 +7723,85 @@
     },
     "extensions": "X9#11b13"
   },
-  "X9#11b13": {
-    "name": "X9#11b13",
+  "_9#11b13": {
+    "name": "_9#11b13",
     "family": "dominant",
     "pronounce": "nine sharp eleven flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
+      "P1",
+      "M3",
+      "P5",
+      "m7",
       "M2",
-      "P4",
-      "m-3",
-      "A1",
-      "m3"
+      "A4",
+      "m6"
     ],
     "priority": [
-      "m3",
-      "A1",
-      "m-3",
-      "P4",
-      "m-2"
+      "m6",
+      "A4",
+      "M2",
+      "m7",
+      "M3"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
+      "P1": [
+        "M7",
+        "A1"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "m3": [
-        "M2",
-        "M3"
+      "m6": [
+        "P5",
+        "M6"
       ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
-      ],
-      "A1": [
-        "P1",
-        "M2"
+      "m7": [
+        "M6",
+        "M7"
       ],
       "M2": [
-        "A2"
+        "A1",
+        "m3"
+      ],
+      "A4": [
+        "P4",
+        "P5"
+      ],
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m3",
-          "P4",
-          "M6",
-          "A8"
+          "M3",
+          "m6",
+          "m7",
+          "M9",
+          "A11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "A8",
-          "m10"
+          "m7",
+          "M9",
+          "M10",
+          "A11",
+          "m13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "m3",
-          "M7",
-          "P11",
-          "M13",
-          "A15"
+          "m6",
+          "M10",
+          "m14",
+          "M16",
+          "A18"
         ]
       }
     },
@@ -7722,114 +7809,115 @@
       "P1": "diminished"
     }
   },
-  "X9b5b13": {
-    "same": "X9#11b13"
+  "_9b5b13": {
+    "same": "_9#11b13"
   },
-  "X13b9": {
-    "name": "X13b9",
+  "_13b9": {
+    "name": "_13b9",
     "family": "dominant",
     "pronounce": "thirteen flat nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "M3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "M6"
     ],
     "color": [
-      "A1",
-      "d-3"
+      "A4",
+      "A2"
     ],
     "priority": [
-      "M-3",
+      "m2",
+      "M6",
+      "m7",
       "M3",
-      "P4",
-      "m-2",
-      "P-4"
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A1",
-        "A2"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "P4": [
-        "A4"
+      "m7": [
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P4",
-          "m6",
-          "M7",
-          "M10"
+          "m7",
+          "m9",
+          "M10",
+          "M13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P4",
+          "m7",
+          "M13",
           "M10",
-          "M7",
-          "m13"
+          "m16"
         ]
       },
       "two-hand-B": {
         "type": "open",
         "notes": [
-          "m-2",
-          "P4",
-          "m6",
-          "M10"
+          "M3",
+          "m7",
+          "m9",
+          "M13"
         ]
       },
       "two-hand-C": {
         "type": "open",
         "notes": [
-          "m-9",
-          "P4",
-          "M-3",
-          "M3"
+          "m-6",
+          "m7",
+          "m2",
+          "M6"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "P4",
+          "m7",
+          "M13",
           "M10",
-          "M7",
-          "m13"
+          "m16"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "m-2",
-          "P4",
-          "m6",
-          "M10"
+          "M3",
+          "m7",
+          "m9",
+          "M13"
         ]
       },
       "shout-C": {
         "type": "shout",
         "notes": [
-          "m-9",
-          "P-5",
-          "M-3",
-          "M3"
+          "m-6",
+          "M-2",
+          "m2",
+          "M6"
         ]
       }
     },
@@ -7839,84 +7927,85 @@
     },
     "extensions": "X13b9#11"
   },
-  "X13b5": {
-    "name": "X13b5",
+  "_13b5": {
+    "name": "_13b5",
     "family": "dominant",
     "pronounce": "thirteen flat five",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "m2",
+      "P1",
       "M3",
-      "P4",
-      "m-3"
+      "d5",
+      "M6",
+      "m7",
+      "M2"
     ],
     "color": [
-      "M-3",
-      "M-2"
+      "m2",
+      "m3"
     ],
     "priority": [
+      "M6",
+      "d5",
+      "M2",
+      "m7",
       "M3",
-      "m2",
-      "m-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
-      "m-2": [
-        "P1",
-        "M-2"
-      ],
-      "m2": [
-        "M2",
-        "P1"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "P1": [
+        "M7",
+        "A1"
       ],
       "M3": [
-        "A2"
+        "P4",
+        "m3"
+      ],
+      "d5": [
+        "P5",
+        "P4"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1",
+        "m3"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "m2",
           "M3",
-          "P4",
-          "m-3"
+          "d5",
+          "M6",
+          "m7",
+          "M2"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "M7",
-          "m9",
-          "M10"
+          "m7",
+          "M9",
+          "M10",
+          "d12",
+          "M13"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
+          "m7",
           "M10",
           "M13",
-          "m16"
+          "M16",
+          "d19"
         ]
       }
     },
@@ -7928,74 +8017,75 @@
       "m2": "diminished"
     }
   },
-  "X13#9": {
-    "name": "X13#9",
+  "_13#9": {
+    "name": "_13#9",
     "family": "dominant",
     "pronounce": "thirteen sharp nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "d-3",
-      "M3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "A2",
+      "M6"
     ],
     "color": [
-      "M-3"
+      "m2"
     ],
     "priority": [
-      "d-3",
+      "A2",
+      "M6",
+      "m7",
       "M3",
-      "P4",
-      "m-2",
-      "M2"
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A1",
-        "A2"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "P4": [
-        "A4"
+      "m7": [
+        "M7"
       ],
-      "M-3": [
-        "M-2",
-        "P-4"
+      "m2": [
+        "m3",
+        "P1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
           "M3",
-          "P4",
-          "A6"
+          "M6",
+          "m7",
+          "A9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A6",
-          "M10",
-          "M14"
+          "m7",
+          "A9",
+          "M13",
+          "M17"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
+          "M-2",
           "M3",
-          "A6"
+          "M6",
+          "A9"
         ]
       }
     },
@@ -8004,98 +8094,99 @@
     },
     "extensions": "X13#9#11"
   },
-  "X13#11": {
-    "name": "X13#11",
+  "_13#11": {
+    "name": "_13#11",
     "family": "dominant",
     "pronounce": "thirteen sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
+      "P1",
+      "M3",
+      "P5",
+      "m7",
       "M2",
-      "P4",
-      "m-3",
-      "A1",
-      "M3"
+      "A4",
+      "M6"
     ],
     "color": [
-      "M-3",
-      "M-2"
+      "m2",
+      "m3"
     ],
     "priority": [
-      "A1",
+      "A4",
+      "M6",
+      "m7",
       "M3",
-      "P4",
-      "m-2",
-      "m-3",
-      "P-4",
-      "M2"
+      "M2",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
-      "m-2": [
-        "P1",
-        "M-2"
-      ],
-      "P4": [
-        "A4"
-      ],
-      "m-3": [
-        "d-4",
-        "M-2"
-      ],
-      "A1": [
-        "P1",
-        "M2"
+      "P1": [
+        "M7",
+        "A1"
       ],
       "M3": [
-        "A2"
+        "P4",
+        "m3"
+      ],
+      "m7": [
+        "M7"
       ],
       "M2": [
-        "A2"
+        "A1",
+        "m3"
+      ],
+      "A4": [
+        "P4",
+        "P5"
+      ],
+      "M6": [
+        "A5"
+      ],
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A1",
           "M3",
-          "P4",
-          "M6"
+          "A4",
+          "M6",
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "A8",
+          "m7",
           "M10",
-          "M13"
+          "A11",
+          "M13",
+          "M16"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "M6",
-          "M13",
-          "A15"
+          "m7",
+          "M10",
+          "M9",
+          "M16",
+          "A18"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
+          "m7",
           "M10",
           "M13",
-          "A15"
+          "M16",
+          "A18"
         ]
       }
     },
@@ -8105,85 +8196,86 @@
       "m2": "diminished"
     }
   },
-  "X13#9#11": {
-    "name": "X13#9#11",
+  "_13#9#11": {
+    "name": "_13#9#11",
     "family": "dominant",
     "pronounce": "thirteen sharp nine sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "d-3",
-      "A1",
-      "M3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "A2",
+      "A4",
+      "M6"
     ],
     "color": [
-      "M-3"
+      "m2"
     ],
     "priority": [
+      "M6",
+      "A4",
+      "A2",
+      "M2",
+      "m7",
       "M3",
-      "A1",
-      "d-3",
-      "m-3",
-      "P4",
-      "m-2",
-      "P-4"
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
-      ],
-      "m-2": [
-        "P1",
-        "M-2"
-      ],
-      "M2": [
-        "A2"
-      ],
-      "P4": [
-        "A4"
-      ],
-      "d-3": [
-        "m-3",
-        "m-2"
-      ],
-      "A1": [
-        "P1"
+      "P1": [
+        "M7"
       ],
       "M3": [
-        "A2"
+        "P4",
+        "m3"
+      ],
+      "P5": [
+        "A5"
+      ],
+      "m7": [
+        "M7"
+      ],
+      "A2": [
+        "M2",
+        "M3"
+      ],
+      "A4": [
+        "P4"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A1",
           "M3",
-          "P4",
-          "A6"
+          "A4",
+          "M6",
+          "m7",
+          "A9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A6",
-          "M7",
-          "A8",
-          "M10"
+          "m7",
+          "A9",
+          "M10",
+          "A11",
+          "M13"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "A8",
-          "A13",
-          "M17"
+          "m7",
+          "M10",
+          "A11",
+          "A16",
+          "M20"
         ]
       }
     },
@@ -8192,69 +8284,70 @@
     },
     "extensions": "X13b9#11 X7b9#11b13"
   },
-  "X7sus4": {
-    "name": "X7sus4",
+  "_7sus4": {
+    "name": "_7sus4",
     "family": "sus4",
     "pronounce": "seven sus four",
+    "key": "f",
     "spell": [
-      "P-4",
-      "P1",
-      "M2",
-      "P4"
-    ],
-    "color": [
-      "m-2",
-      "M3",
-      "m-3",
-      "M-3"
-    ],
-    "priority": [
       "P1",
       "P4",
+      "P5",
+      "m7"
+    ],
+    "color": [
+      "M3",
+      "M6",
       "M2",
-      "P-4"
+      "m2"
+    ],
+    "priority": [
+      "P4",
+      "m7",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4",
-        "m-3"
-      ],
       "P1": [
-        "A1"
-      ],
-      "M2": [
+        "M7",
         "A1",
-        "A2"
+        "M2"
       ],
       "P4": [
-        "M3",
         "A4"
+      ],
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "M2",
-          "P4"
+          "P4",
+          "P5",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "P8"
+          "P5",
+          "m7",
+          "P11"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P4",
-          "M9"
+          "m7",
+          "P12"
         ]
       }
     },
@@ -8270,82 +8363,83 @@
     },
     "extensions": "X9sus4"
   },
-  "X7sus": {
-    "same": "X7sus4"
+  "_7sus": {
+    "same": "_7sus4"
   },
-  "X9sus4": {
-    "name": "X9sus4",
+  "_9sus4": {
+    "name": "_9sus4",
     "family": "sus4",
     "pronounce": "nine sus four",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "M2",
       "P4",
-      "m-3"
+      "P5",
+      "m7",
+      "M2"
     ],
     "color": [
-      "m-2",
-      "M3"
+      "M3",
+      "M6"
     ],
     "priority": [
-      "P1",
       "P4",
-      "m-3",
+      "m7",
       "M2",
-      "P-4"
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "M2": [
-        "A1",
-        "A2"
-      ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "m-3": [
-        "d-4"
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
           "P4",
-          "M6"
+          "m7",
+          "M9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "P8"
+          "m7",
+          "M9",
+          "P11"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
-          "M6",
-          "P11"
+          "P4",
+          "M9",
+          "m14"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "M6"
+          "M-2",
+          "P4",
+          "M9"
         ]
       }
     },
@@ -8357,73 +8451,74 @@
     },
     "extensions": "X13sus4"
   },
-  "X9sus": {
-    "same": "X9sus4"
+  "_9sus": {
+    "same": "_9sus4"
   },
-  "X7#5sus4": {
-    "name": "X7#5sus4",
+  "_7#5sus4": {
+    "name": "_7#5sus4",
     "family": "sus4",
     "pronounce": "seven sharp five sus four",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "A2",
-      "P4"
+      "P4",
+      "A5",
+      "m7"
     ],
     "color": [
-      "m-3"
+      "M2"
     ],
     "priority": [
-      "A2",
+      "A5",
+      "m7",
       "P4",
-      "P1",
-      "P-4"
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
-        "m-2",
+        "M7",
         "A1"
-      ],
-      "A2": [
-        "M2",
-        "M3"
       ],
       "P4": [
         "M3",
         "A4"
       ],
-      "m-3": [
-        "d-4",
-        "M-2"
+      "A5": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "M2": [
+        "A1",
+        "m3"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P1",
-          "A2",
-          "P4"
+          "P4",
+          "A5",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "P8",
-          "A9"
+          "m7",
+          "P11",
+          "A12"
         ]
       },
       "two-hand-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P4",
-          "A9"
+          "m7",
+          "A12"
         ]
       }
     },
@@ -8431,67 +8526,68 @@
       "m6": "minor pentatonic"
     }
   },
-  "X7sus4b9": {
-    "name": "X7sus4b9",
+  "_7sus4b9": {
+    "name": "_7sus4b9",
     "family": "sus4",
     "pronounce": "seven sus four flat nine",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "M2",
       "P4",
-      "M-3"
+      "P5",
+      "m7",
+      "m2"
     ],
     "priority": [
-      "P1",
       "P4",
-      "M-3",
-      "M2",
-      "P-4"
+      "m7",
+      "m2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
       ],
-      "M2": [
-        "A1",
-        "A2"
-      ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "M-3": [
-        "m-3"
+      "P5": [
+        "A4",
+        "A5"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "m2": [
+        "M2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P4",
-          "m6",
-          "P8"
+          "m7",
+          "m9",
+          "P11"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P4",
-          "m6"
+          "m7",
+          "m9"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "m6"
+          "M-2",
+          "P4",
+          "m9"
         ]
       }
     },
@@ -8510,83 +8606,84 @@
       "P4": "flat six pentatonic"
     }
   },
-  "X7sus4b9b13": {
-    "name": "X7sus4b9b13",
+  "_7sus4b9b13": {
+    "name": "_7sus4b9b13",
     "family": "sus4",
     "pronounce": "seven sus four flat nine flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "M2",
       "P4",
-      "M-3",
-      "m3"
+      "P5",
+      "m7",
+      "m2",
+      "m6"
     ],
     "priority": [
-      "P1",
-      "m3",
       "P4",
-      "M-3",
-      "M2",
-      "P-4"
+      "m6",
+      "m7",
+      "m2",
+      "P5",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
-      ],
-      "M2": [
-        "A1"
-      ],
-      "m3": [
-        "M3"
       ],
       "P4": [
-        "M3",
         "A4"
       ],
-      "M-3": [
-        "m-3"
+      "P5": [
+        "A4"
+      ],
+      "m6": [
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
+      ],
+      "m2": [
+        "M2"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m3",
-          "P4",
           "m6",
-          "P8"
+          "m7",
+          "m9",
+          "P11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "m6",
-          "P8",
-          "m10"
+          "m7",
+          "m9",
+          "P11",
+          "m13"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P4",
-          "m6",
-          "m10"
+          "m7",
+          "m9",
+          "m13"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "m6",
-          "m10"
+          "M-2",
+          "P4",
+          "m9",
+          "m13"
         ]
       }
     },
@@ -8594,85 +8691,86 @@
       "P1": "phrygian"
     }
   },
-  "X7b9b13sus4": {
-    "same": "X7sus4b9b13"
+  "_7b9b13sus4": {
+    "same": "_7sus4b9b13"
   },
-  "X13sus4": {
-    "name": "X13sus4",
+  "_13sus4": {
+    "name": "_13sus4",
     "family": "sus4",
     "pronounce": "thirteen sus four",
+    "key": "f",
     "spell": [
-      "P-4",
       "P1",
-      "M2",
       "P4",
-      "m-3",
-      "M3"
+      "P5",
+      "m7",
+      "M2",
+      "M6"
     ],
     "priority": [
-      "P1",
-      "M3",
       "P4",
-      "m-3",
-      "P-4"
+      "M6",
+      "m7",
+      "M2",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4",
-        "d-4"
-      ],
       "P1": [
+        "M7",
         "A1"
-      ],
-      "M2": [
-        "A1",
-        "A2"
       ],
       "P4": [
         "A4"
       ],
-      "m-3": [
-        "d-4"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "M3": [
-        "A2"
+      "m7": [
+        "M7"
+      ],
+      "M2": [
+        "A1"
+      ],
+      "M6": [
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M3",
-          "P4",
           "M6",
-          "P8"
+          "m7",
+          "M9",
+          "P11"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M6",
-          "P8",
-          "M10"
+          "m7",
+          "M9",
+          "P11",
+          "M13"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P1",
           "P4",
-          "M6",
-          "M10"
+          "m7",
+          "M9",
+          "M13"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "P1",
-          "M6",
-          "M10"
+          "M-2",
+          "P4",
+          "M9",
+          "M13"
         ]
       }
     },
@@ -8680,73 +8778,74 @@
       "P1": "mixolydian"
     }
   },
-  "X13sus": {
-    "same": "X13sus4"
+  "_13sus": {
+    "same": "_13sus4"
   },
-  "X7b9#11": {
-    "name": "X7b9#11",
+  "_7b9#11": {
+    "name": "_7b9#11",
     "family": "dominant",
     "pronounce": "seven flat nine sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "A1"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "A4"
     ],
     "color": [
-      "m3",
-      "M3"
+      "m6",
+      "M6"
     ],
     "priority": [
-      "A1",
-      "M-3",
-      "P4",
-      "m-2",
-      "P-4",
-      "M2"
+      "A4",
+      "m2",
+      "m7",
+      "M3",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ],
-      "A1": [
-        "P1"
+      "A4": [
+        "P4"
       ],
-      "M2": [
-        "A2"
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "m6",
-          "A8"
+          "M-2",
+          "M3",
+          "m9",
+          "A11"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m6",
-          "M7",
-          "A8"
+          "M-2",
+          "m9",
+          "M10",
+          "A11"
         ]
       }
     },
@@ -8759,81 +8858,82 @@
     "extensions": "X13b9#11 X7b9#11b13",
     "substitute": "Db7b5"
   },
-  "X7b9#11b13": {
-    "same": "X7b9b13#11"
+  "_7b9#11b13": {
+    "same": "_7b9b13#11"
   },
-  "X7b5b9": {
-    "same": "X7b9#11"
+  "_7b5b9": {
+    "same": "_7b9#11"
   },
-  "X7b5b13": {
-    "same": "X7#11b13"
+  "_7b5b13": {
+    "same": "_7#11b13"
   },
-  "X7b5b9b13": {
-    "same": "X7b9#11b13"
+  "_7b5b9b13": {
+    "same": "_7b9#11b13"
   },
-  "X13b9#11": {
-    "name": "X13b9#11",
+  "_13b9#11": {
+    "name": "_13b9#11",
     "family": "dominant",
     "pronounce": "thirteen flat nine sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "A1",
-      "M3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "A4",
+      "M6"
     ],
     "priority": [
-      "A1",
+      "A4",
+      "M6",
+      "m2",
+      "m7",
       "M3",
-      "M-3",
-      "P4",
-      "m-2",
-      "P-4",
-      "M2"
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ],
-      "A1": [
-        "P1"
+      "A4": [
+        "P4"
       ],
-      "M2": [
-        "A2"
+      "P5": [
+        "A5"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
+          "m7",
           "M10",
-          "m13",
-          "A15"
+          "M13",
+          "m16",
+          "A18"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "P4",
-          "M10",
-          "m13",
-          "A15"
+          "m7",
+          "M13",
+          "m16",
+          "A18"
         ]
       }
     },
@@ -8841,70 +8941,71 @@
       "m2": "diminished"
     }
   },
-  "X7b9b13": {
-    "name": "X7b9b13",
+  "_7b9b13": {
+    "name": "_7b9b13",
     "family": "dominant",
     "pronounce": "seven flat nine flat thirteen",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "m3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "m6"
     ],
     "color": [
-      "M2",
-      "m2"
+      "P5",
+      "d5"
     ],
     "priority": [
-      "M-3",
-      "m3",
-      "P4",
-      "m-2",
-      "P-4"
+      "m2",
+      "m6",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A1",
-        "A2"
+      "P5": [
+        "A4",
+        "A5"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ],
-      "m3": [
-        "M3"
+      "m6": [
+        "M6"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "m3",
-          "m6"
+          "M-2",
+          "M3",
+          "m6",
+          "m9"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m3",
+          "M-2",
           "m6",
-          "M7"
+          "m9",
+          "M10"
         ]
       }
     },
@@ -8914,70 +9015,71 @@
     },
     "extensions": "X7b9b13#11"
   },
-  "X7b9b13#11": {
-    "name": "X7b9b13#11",
+  "_7b9b13#11": {
+    "name": "_7b9b13#11",
     "family": "dominant",
     "pronounce": "seven flat nine flat thirteen sharp eleven",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "M2",
-      "P4",
-      "M-3",
-      "A1",
-      "m3"
+      "P1",
+      "M3",
+      "P5",
+      "m7",
+      "m2",
+      "A4",
+      "m6"
     ],
     "priority": [
-      "M-3",
-      "m3",
-      "A1",
-      "P4",
-      "m-2",
-      "P-4",
-      "M2"
+      "m2",
+      "m6",
+      "A4",
+      "m7",
+      "M3",
+      "P1",
+      "P5"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1",
-        "M-2"
+      "M3": [
+        "P4",
+        "m3"
       ],
-      "M2": [
-        "A2"
+      "P5": [
+        "A5"
       ],
-      "P4": [
-        "M3",
-        "A4"
+      "m7": [
+        "M6",
+        "M7"
       ],
-      "M-3": [
-        "m-3",
-        "M-2"
+      "m2": [
+        "M2",
+        "m3"
       ],
-      "m3": [
-        "M3"
+      "m6": [
+        "M6"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "m3",
+          "M-2",
+          "M3",
           "m6",
-          "A8"
+          "m9",
+          "A11"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m3",
+          "M-2",
           "m6",
-          "M7",
-          "A8"
+          "m9",
+          "M10",
+          "A11"
         ]
       }
     },
@@ -8986,64 +9088,65 @@
       "m2": "melodic minor"
     }
   },
-  "X7#5b9": {
-    "name": "X7#5b9",
+  "_7#5b9": {
+    "name": "_7#5b9",
     "family": "dominant",
     "pronounce": "seven sharp five flat nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4",
-      "M-3"
+      "P1",
+      "M3",
+      "A5",
+      "m7",
+      "m2"
     ],
     "color": [
-      "A1",
-      "M-2"
+      "A4",
+      "m3"
     ],
     "priority": [
-      "A2",
-      "P4",
-      "m-2",
-      "M-3",
-      "P-4"
+      "A5",
+      "m7",
+      "M3",
+      "m2",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1"
+      "M3": [
+        "P4"
+      ],
+      "A5": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ],
       "A2": [
-        "M2",
-        "M3"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "d-3": [
-        "m-3"
+        "M2"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "A2",
-          "m6"
+          "M-2",
+          "M3",
+          "A5",
+          "m9"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "A2",
-          "m6",
-          "M7"
+          "M-2",
+          "A5",
+          "m9",
+          "M10"
         ]
       }
     },
@@ -9055,70 +9158,71 @@
     },
     "extensions": "X7#5b9#11"
   },
-  "X7#5b9#11": {
-    "name": "X7#5b9#11",
+  "_7#5b9#11": {
+    "name": "_7#5b9#11",
     "family": "dominant",
     "pronounce": "seven sharp five flat nine sharp 11",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4",
-      "M-3",
-      "A1"
+      "P1",
+      "M3",
+      "A5",
+      "m7",
+      "m2",
+      "A4"
     ],
     "color": [
-      "M-2"
+      "m3"
     ],
     "priority": [
-      "A2",
-      "A1",
-      "P4",
-      "m-2",
-      "M-3",
-      "P-4"
+      "A5",
+      "A4",
+      "m7",
+      "M3",
+      "m2",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1"
+      "M3": [
+        "P4"
       ],
-      "A1": [
-        "P1"
+      "A4": [
+        "P4"
+      ],
+      "A5": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ],
       "A2": [
-        "M2",
-        "M3"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "d-3": [
-        "m-3"
+        "M2"
       ]
     },
     "voicings": {
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "A2",
-          "m6",
-          "A8"
+          "M-2",
+          "M3",
+          "A5",
+          "m9",
+          "A11"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-5",
-          "A2",
-          "m6",
-          "M7",
-          "A8"
+          "M-2",
+          "A5",
+          "m9",
+          "M10",
+          "A11"
         ]
       }
     },
@@ -9129,83 +9233,84 @@
       ]
     }
   },
-  "X7#5#9": {
-    "name": "X7#5#9",
+  "_7#5#9": {
+    "name": "_7#5#9",
     "family": "dominant",
     "pronounce": "seven sharp five sharp nine",
+    "key": "f",
     "spell": [
-      "P-4",
-      "m-2",
-      "A2",
-      "P4",
-      "d-3"
+      "P1",
+      "M3",
+      "A5",
+      "m7",
+      "A2"
     ],
     "color": [
-      "M-3",
       "m2",
-      "M2"
+      "d5",
+      "P5"
     ],
     "priority": [
-      "d-3",
       "A2",
-      "P4",
-      "m-2",
-      "P-4"
+      "A5",
+      "m7",
+      "M3",
+      "P1"
     ],
     "approach": {
-      "P-4": [
-        "A4"
+      "P1": [
+        "M7"
       ],
-      "m-2": [
-        "P1"
+      "M3": [
+        "P4"
+      ],
+      "A5": [
+        "P5",
+        "M6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ],
       "A2": [
-        "M2",
-        "M3"
-      ],
-      "P4": [
-        "M3",
-        "A4"
-      ],
-      "d-3": [
-        "m-3"
+        "M2"
       ]
     },
     "voicings": {
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "P18",
-          "M-9",
-          "m-9",
-          "M-6"
+          "m21",
+          "M-6",
+          "m-6",
+          "M-3"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "A2",
-          "P4",
-          "A6"
+          "M3",
+          "A5",
+          "m7",
+          "A9"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A6",
-          "M7",
-          "A9"
+          "m7",
+          "A9",
+          "M10",
+          "A12"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "m-2",
-          "A2",
-          "A6"
+          "M-2",
+          "M3",
+          "A5",
+          "A9"
         ]
       }
     },
@@ -9220,86 +9325,87 @@
     },
     "substitute": "DbmM7 Gb7#11"
   },
-  "X7alt": {
-    "same": "X7#5#9"
+  "_7alt": {
+    "same": "_7#5#9"
   },
-  "Xo": {
-    "name": "Xo",
+  "_o": {
+    "name": "_o",
     "family": "diminished",
     "pronounce": "diminished",
+    "key": "db",
     "spell": [
-      "m-2",
+      "P1",
+      "m3",
+      "d5"
+    ],
+    "color": [
+      "M6",
+      "M7",
+      "m7",
       "M2",
       "P4"
     ],
-    "color": [
-      "A5",
-      "A6",
-      "M6",
-      "A1",
-      "M3"
-    ],
     "priority": [
-      "P4",
-      "M2",
-      "m-2"
+      "d5",
+      "m3",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "A1",
-        "P1"
+      "P1": [
+        "M7",
+        "M2",
+        "m2"
       ],
-      "M2": [
-        "A1",
-        "A2",
-        "M3"
-      ],
-      "P4": [
+      "m3": [
+        "M2",
         "M3",
-        "A4",
-        "AA4"
+        "P4"
+      ],
+      "d5": [
+        "P4",
+        "P5",
+        "A5"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "M7"
+          "m3",
+          "d5",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "M7",
-          "M9"
+          "d5",
+          "P8",
+          "m10"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "m-2",
-          "M2",
-          "P4"
+          "P1",
+          "m3",
+          "d5"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "M7",
-          "P11"
+          "m3",
+          "P8",
+          "d12"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M7",
-          "M9"
+          "d5",
+          "P8",
+          "m10"
         ]
       }
     },
@@ -9311,186 +9417,187 @@
     },
     "extensions": "Xo7 Xm7b5"
   },
-  "Xo7": {
-    "name": "Xo7",
+  "_o7": {
+    "name": "_o7",
     "family": "diminished",
     "pronounce": "diminished seven",
+    "key": "db",
     "spell": [
-      "m-2",
-      "M2",
-      "P4",
-      "A5"
+      "P1",
+      "m3",
+      "d5",
+      "M6"
     ],
     "color": [
-      "A1",
-      "M3",
-      "P5",
-      "A6"
-    ],
-    "priority": [
-      "A5",
       "M2",
       "P4",
-      "m-2"
+      "m6",
+      "M7"
+    ],
+    "priority": [
+      "M6",
+      "m3",
+      "d5",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "A1",
-        "P1"
+      "P1": [
+        "M7",
+        "M2",
+        "m2"
       ],
-      "M2": [
-        "A1",
-        "A2",
-        "M3"
-      ],
-      "P4": [
+      "m3": [
+        "M2",
         "M3",
-        "A4",
-        "AA4"
+        "P4"
       ],
-      "A5": [
-        "AA4",
-        "M6",
-        "A6"
+      "d5": [
+        "P4",
+        "P5",
+        "A5"
+      ],
+      "M6": [
+        "A5",
+        "m7",
+        "M7"
       ]
     },
     "voicings": {
       "open-G": {
         "type": "open",
         "notes": [
-          "d-4",
-          "m-2",
-          "AA1",
-          "A3",
-          "A5"
+          "m-3",
+          "P1",
+          "A2",
+          "A4",
+          "M6"
         ]
       },
       "open-F": {
         "type": "open",
         "notes": [
-          "dd-8",
-          "d-6",
-          "m-2",
-          "A3",
-          "A5"
+          "d-7",
+          "d-5",
+          "P1",
+          "A4",
+          "M6"
         ]
       },
       "open-E": {
         "type": "open",
         "notes": [
-          "M16",
-          "A19",
-          "m-9",
-          "P-5"
+          "m17",
+          "M20",
+          "P-8",
+          "A-4"
         ]
       },
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "A5",
-          "M7"
+          "m3",
+          "d5",
+          "M6",
+          "P8"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A5",
-          "M7",
-          "M9"
+          "d5",
+          "M6",
+          "P8",
+          "m10"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "A5",
-          "M7",
-          "M9",
-          "P11"
+          "M6",
+          "P8",
+          "m10",
+          "d12"
         ]
       },
       "left-hand-D": {
         "type": "closed",
         "notes": [
-          "m-9",
-          "m-7",
-          "P-5",
-          "d-4"
+          "P-8",
+          "M-6",
+          "A-4",
+          "m-3"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "A5",
-          "P11",
-          "M14"
+          "m3",
+          "M6",
+          "d12",
+          "P15"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "M9",
-          "A12",
-          "M14"
+          "d5",
+          "m10",
+          "M13",
+          "P15"
         ]
       },
       "open-C": {
         "type": "open",
         "notes": [
-          "A19",
-          "P-5",
-          "m-2",
-          "M2"
+          "M20",
+          "A-4",
+          "P1",
+          "m3"
         ]
       },
       "open-D": {
         "type": "open",
         "notes": [
-          "m-9",
-          "P-5",
-          "d-4",
-          "M2"
+          "P-8",
+          "A-4",
+          "m-3",
+          "m3"
         ]
       },
       "shout-A": {
         "type": "shout",
         "notes": [
-          "M2",
-          "P4",
-          "A5",
-          "M7"
+          "m3",
+          "d5",
+          "M6",
+          "P8"
         ]
       },
       "shout-B": {
         "type": "shout",
         "notes": [
-          "P4",
-          "A5",
-          "M7",
-          "M9"
+          "d5",
+          "M6",
+          "P8",
+          "m10"
         ]
       },
       "shout-C": {
         "type": "shout",
         "notes": [
-          "A5",
-          "M7",
-          "M9",
-          "P11"
+          "M6",
+          "P8",
+          "m10",
+          "d12"
         ]
       },
       "shout-D": {
         "type": "shout",
         "notes": [
-          "m-9",
-          "m-7",
-          "P-5",
-          "d-4"
+          "P-8",
+          "M-6",
+          "A-4",
+          "m-3"
         ]
       }
     },
@@ -9500,49 +9607,50 @@
     },
     "extensions": "XoM7"
   },
-  "Xdim": {
-    "same": "Xo"
+  "_dim": {
+    "same": "_o"
   },
-  "Xdim7": {
-    "same": "Xo7"
+  "_dim7": {
+    "same": "_o7"
   },
-  "XoM7": {
-    "name": "XoM7",
+  "_oM7": {
+    "name": "_oM7",
     "family": "diminished",
     "pronounce": "diminished major seven",
+    "key": "db",
     "spell": [
-      "m-2",
-      "M2",
-      "P4",
-      "A6"
+      "P1",
+      "m3",
+      "d5",
+      "M7"
     ],
     "color": [
-      "A1",
-      "M3",
-      "P5"
-    ],
-    "priority": [
-      "A6",
       "M2",
       "P4",
-      "m-2"
+      "m6"
+    ],
+    "priority": [
+      "M7",
+      "m3",
+      "d5",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "P1"
+      "P1": [
+        "M7",
+        "m2"
       ],
-      "M2": [
-        "A2",
-        "M3"
-      ],
-      "P4": [
+      "m3": [
         "M3",
-        "A4",
-        "AA4"
+        "P4"
       ],
-      "A6": [
-        "M6"
+      "d5": [
+        "P4",
+        "P5",
+        "A5"
+      ],
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {},
@@ -9550,96 +9658,97 @@
       "P1": "diminished"
     }
   },
-  "Xo7M7": {
-    "name": "Xo7M7",
+  "_o7M7": {
+    "name": "_o7M7",
     "family": "diminished",
     "pronounce": "diminished seven major seven",
+    "key": "db",
     "spell": [
-      "m-2",
-      "M2",
-      "P4",
-      "A5",
-      "A6"
+      "P1",
+      "m3",
+      "d5",
+      "M6",
+      "M7"
     ],
     "color": [
-      "A1",
-      "M3",
-      "P5"
-    ],
-    "priority": [
-      "A6",
-      "A5",
       "M2",
       "P4",
-      "m-2"
+      "m6"
+    ],
+    "priority": [
+      "M7",
+      "M6",
+      "m3",
+      "d5",
+      "P1"
     ],
     "approach": {
-      "m-2": [
-        "A6",
-        "P1"
+      "P1": [
+        "M7",
+        "m2"
       ],
-      "M2": [
-        "A2",
-        "M3"
-      ],
-      "P4": [
+      "m3": [
         "M3",
-        "A4",
-        "AA4"
+        "P4"
       ],
-      "A5": [
-        "AA4",
-        "M6",
-        "A6"
+      "d5": [
+        "P4",
+        "P5",
+        "A5"
       ],
-      "A6": [
-        "M6"
+      "M6": [
+        "A5",
+        "m7",
+        "M7"
+      ],
+      "M7": [
+        "m7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "M2",
-          "P4",
-          "A5",
-          "A6"
+          "m3",
+          "d5",
+          "M6",
+          "M7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P4",
-          "A5",
-          "A6",
-          "M9"
+          "d5",
+          "M6",
+          "M7",
+          "m10"
         ]
       },
       "left-hand-C": {
         "type": "closed",
         "notes": [
-          "A6",
-          "M9",
-          "P11",
-          "A12"
+          "M7",
+          "m10",
+          "d12",
+          "M13"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "M2",
-          "A5",
-          "P11",
-          "A13"
+          "m3",
+          "M6",
+          "d12",
+          "M14"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P4",
-          "A6",
-          "M9",
-          "A12"
+          "d5",
+          "M7",
+          "m10",
+          "M13"
         ]
       }
     },
@@ -9647,87 +9756,88 @@
       "P1": "diminished"
     }
   },
-  "XBlues": {
-    "name": "XBlues",
+  "_Blues": {
+    "name": "_Blues",
     "family": "dominant",
     "pronounce": "Blues",
+    "key": "bb",
     "spell": [
-      "m-7",
-      "P-5",
-      "P-4",
-      "M-3",
-      "m-3",
-      "P1"
+      "P1",
+      "m3",
+      "P4",
+      "d5",
+      "P5",
+      "m7"
     ],
     "priority": [
-      "m-7",
-      "P-5",
-      "P-4",
-      "m-3",
       "P1",
-      "M-3"
+      "m3",
+      "P4",
+      "P5",
+      "m7",
+      "d5"
     ],
     "approach": {
-      "m-7": [
-        "A1",
-        "M-6"
-      ],
-      "P-5": [
-        "d-5",
-        "P-4"
-      ],
-      "P-4": [
-        "M-3",
-        "d-5"
-      ],
-      "M-3": [
-        "P-4",
-        "m-3"
-      ],
-      "m-3": [
-        "M-3",
-        "M-2"
-      ],
       "P1": [
-        "m-2",
-        "A1"
+        "M7",
+        "m2"
+      ],
+      "m3": [
+        "M3",
+        "P4"
+      ],
+      "P4": [
+        "d5",
+        "M3"
+      ],
+      "d5": [
+        "P4",
+        "P5"
+      ],
+      "P5": [
+        "d5",
+        "m6"
+      ],
+      "m7": [
+        "M6",
+        "M7"
       ]
     },
     "voicings": {
       "left-hand-A": {
         "type": "closed",
         "notes": [
-          "P-5",
-          "P-4",
-          "M-3",
-          "P1"
+          "m3",
+          "P4",
+          "d5",
+          "m7"
         ]
       },
       "left-hand-B": {
         "type": "closed",
         "notes": [
-          "P-4",
-          "M-3",
-          "P1",
-          "P4"
+          "P4",
+          "d5",
+          "m7",
+          "m10"
         ]
       },
       "open-A": {
         "type": "open",
         "notes": [
-          "P-5",
-          "M-3",
-          "P1",
-          "P5"
+          "m3",
+          "d5",
+          "m7",
+          "P11"
         ]
       },
       "open-B": {
         "type": "open",
         "notes": [
-          "P-4",
-          "M-3",
           "P4",
-          "P8"
+          "d5",
+          "m10",
+          "m14"
         ]
       }
     },
@@ -9735,10 +9845,11 @@
       "P1": "minor blues"
     }
   },
-  "X5": {
-    "name": "X5",
+  "_5": {
+    "name": "_5",
     "family": "bass",
     "pronounce": "five",
+    "key": "c",
     "spell": [
       "P1",
       "P5"
@@ -9770,10 +9881,11 @@
     },
     "scales": {}
   },
-  "X10": {
-    "name": "X10",
+  "_10": {
+    "name": "_10",
     "family": "major",
     "pronounce": "ten",
+    "key": "c",
     "spell": [
       "P1",
       "P5",
@@ -9811,10 +9923,11 @@
     },
     "scales": {}
   },
-  "Xm10": {
-    "name": "Xm10",
+  "_m10": {
+    "name": "_m10",
     "family": "minor",
     "pronounce": "minor ten",
+    "key": "c",
     "spell": [
       "P1",
       "P5",
@@ -9852,115 +9965,115 @@
     },
     "scales": {}
   },
-  "X-": {
-    "same": "Xm7"
+  "_-": {
+    "same": "_m7"
   },
-  "X-7": {
-    "same": "Xm7"
+  "_-7": {
+    "same": "_m7"
   },
-  "X-9": {
-    "same": "Xm9"
+  "_-9": {
+    "same": "_m9"
   },
-  "X-11": {
-    "same": "Xm11"
+  "_-11": {
+    "same": "_m11"
   },
-  "X-13": {
-    "same": "Xm13"
+  "_-13": {
+    "same": "_m13"
   },
-  "X-7b5": {
-    "same": "Xm7b5"
+  "_-7b5": {
+    "same": "_m7b5"
   },
-  "X-9b5": {
-    "same": "Xm9b5"
+  "_-9b5": {
+    "same": "_m9b5"
   },
-  "X-11b5": {
-    "same": "Xm11b5"
+  "_-11b5": {
+    "same": "_m11b5"
   },
-  "X-6": {
-    "same": "Xm6"
+  "_-6": {
+    "same": "_m6"
   },
-  "X-69": {
-    "same": "Xm69"
+  "_-69": {
+    "same": "_m69"
   },
-  "X-M7": {
-    "same": "XmM7"
+  "_-M7": {
+    "same": "_mM7"
   },
-  "X-M9": {
-    "same": "XmM9"
+  "_-M9": {
+    "same": "_mM9"
   },
-  "X7+4": {
-    "same": "X7#11"
+  "_7+4": {
+    "same": "_7#11"
   },
-  "X7#4": {
-    "same": "X7#11"
+  "_7#4": {
+    "same": "_7#11"
   },
-  "X9+4": {
-    "same": "X9#11"
+  "_9+4": {
+    "same": "_9#11"
   },
-  "X9#4": {
-    "same": "X9#11"
+  "_9#4": {
+    "same": "_9#11"
   },
-  "X13+4": {
-    "same": "X13#11"
+  "_13+4": {
+    "same": "_13#11"
   },
-  "X13#4": {
-    "same": "X13#11"
+  "_13#4": {
+    "same": "_13#11"
   },
-  "XM7+4": {
-    "same": "XM7#11"
+  "_M7+4": {
+    "same": "_M7#11"
   },
-  "XM7#4": {
-    "same": "XM7#11"
+  "_M7#4": {
+    "same": "_M7#11"
   },
-  "XM9+4": {
-    "same": "XM9#11"
+  "_M9+4": {
+    "same": "_M9#11"
   },
-  "XM9#4": {
-    "same": "XM9#11"
+  "_M9#4": {
+    "same": "_M9#11"
   },
-  "XM13+4": {
-    "same": "XM13#11"
+  "_M13+4": {
+    "same": "_M13#11"
   },
-  "XM13#4": {
-    "same": "XM13#11"
+  "_M13#4": {
+    "same": "_M13#11"
   },
-  "X7_": {
-    "same": "X7"
+  "_7_": {
+    "same": "_7"
   },
-  "X9_": {
-    "same": "X9"
+  "_9_": {
+    "same": "_9"
   },
-  "X13_": {
-    "same": "X13"
+  "_13_": {
+    "same": "_13"
   },
-  "X7#11_": {
-    "same": "X7#11"
+  "_7#11_": {
+    "same": "_7#11"
   },
-  "X9#11_": {
-    "same": "X9#11"
+  "_9#11_": {
+    "same": "_9#11"
   },
-  "X13#11_": {
-    "same": "X13#11"
+  "_13#11_": {
+    "same": "_13#11"
   },
-  "X7#4_": {
-    "same": "X7#4"
+  "_7#4_": {
+    "same": "_7#4"
   },
-  "X9#4_": {
-    "same": "X9#4"
+  "_9#4_": {
+    "same": "_9#4"
   },
-  "X13#4_": {
-    "same": "X13#4"
+  "_13#4_": {
+    "same": "_13#4"
   },
-  "X13#9_": {
-    "same": "X13#9"
+  "_13#9_": {
+    "same": "_13#9"
   },
-  "X7#9_": {
-    "same": "X7#9"
+  "_7#9_": {
+    "same": "_7#9"
   },
-  "X7#5#9_": {
-    "same": "X7#5#9"
+  "_7#5#9_": {
+    "same": "_7#5#9"
   },
-  "X7#9b13_": {
-    "same": "X7#5#9"
+  "_7#9b13_": {
+    "same": "_7#5#9"
   }
 }

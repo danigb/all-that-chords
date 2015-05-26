@@ -1,13 +1,11 @@
 # all-that-chords
 
-A library of music chords
+A Javascript music chord library:
 
 ```js
-
-var chord = require('all-that-chords');
-
-var c = chord('Cmaj7');
-c.notes() // -> return an array of notes in pitch notation
-c.voicings() // -> ['left-hand-A', 'left-hand-B'...]
-c.voicing(c.voicings()[0]); // -> an array of notes
+var Chord = require('all-that-chords');
+var chord = Chord('C7');
+chord.notes();  // => ['c2', 'e2', 'g2', 'bb2'];
 ```
+
+This is part on an effort to port of the huge and awesome impro-visor musical database to javascript.

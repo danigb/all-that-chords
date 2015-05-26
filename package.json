@@ -1,12 +1,10 @@
 {
-  "name": "all-that-chords-tools",
-  "private": true,
+  "name": "all-that-chords",
   "version": "0.1.0",
-  "description": "The tests and build tools of all-that-chords",
+  "description": "A chord library",
   "main": "index.js",
   "scripts": {
-    "test": "vows test/*.js",
-    "start": "webpack index.js dist/all-that-chords.js"
+    "test": "vows test/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,15 +17,15 @@
     "notation"
   ],
   "author": "danigb <danigb@gmail.com>",
-  "license": "MIT",
+  "license": "GNU General Public License v2",
   "bugs": {
     "url": "https://github.com/danigb/all-that-chords/issues"
   },
   "homepage": "https://github.com/danigb/all-that-chords",
   "devDependencies": {
-    "node-libs-browser": "^0.5.0",
-    "pitch": "file:../pitch/lib",
-    "vows": "^0.8.1",
-    "webpack": "^1.9.4"
+    "vows": "^0.8.1"
+  },
+  "dependencies": {
+    "note-pitch": "^0.3.0"
   }
 }

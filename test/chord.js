@@ -1,25 +1,15 @@
 vows = require('vows');
 assert = require('assert');
 
-var chord = require('../lib');
-var str = require('pitch/note/str');
+Chord = require('../');
 
-vows.describe('All that chords').addBatch({
-  "chord root": function() {
-    c = chord("Cmaj7");
-    assert.equal(str(c.root), 'c4');
+vows.describe('Chord constructor').addBatch({
+  "Simple": function() {
+    assert.deepEqual(Chord("CM").root, "C");
+    assert.deepEqual(Chord("CM").name, "M");
+    assert.deepEqual(Chord("CM").intervals, ['P1', 'M3', 'P5']);
   },
-  "notes": function() {
-    c = chord("Cmaj7");
-    assert.deepEqual(c.notes().map(str), ['c4', 'e4', 'g4', 'b4']);
-  },
-  "voicings": function() {
-    c = chord("Cmaj7");
-    assert.deepEqual(c.voicings(), ['left-hand-A', 'left-hand-B', 'left-hand-C', 'two-hand-A', 'two-hand-B', 'two-hand-C']);
-  },
-  "voicing": function() {
-    c = chord("Cmaj7");
-    assert.deepEqual(c.voicing('left-hand-A').map(str), ['e4', 'g4', 'b4']);
-    assert.deepEqual(c.voicing('left-hand-C').map(str), ['g4', 'b4', 'e5']);
+  "Alias": function() {
+    assert.deepEqual(Chord("CDominant").intervals, [ 'P1', 'M3', 'P5', 'm7' ]);
   }
 }).export(module);
