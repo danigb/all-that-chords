@@ -1,7 +1,7 @@
 'use strict';
 
 var pitch = require('note-pitch');
-var intervals = require('./data/intervals.json');
+var chords = require('./data/chords.json');
 var aliases = require('./data/aliases.json');
 var scales = require('./data/scales.json');
 var voicings = require('./data/voicings.json');
@@ -19,7 +19,7 @@ function Chord(root, name) {
     this.name = name;
   }
   this.name = aliases[this.name] || this.name;
-  this.intervals = intervals[this.name];
+  this.intervals = chords[this.name];
   this.intervals = this.intervals ? this.intervals.split(' ') : [];
 }
 
@@ -65,8 +65,8 @@ Chord.detect = function(root, notes) {
   }
   if(!Array.isArray(notes)) notes = notes.split(' ');
   var chordIntervals = pitch.distance(root, notes).join(' ');
-  for(var name in intervals) {
-    if(intervals[name] == chordIntervals) return new Chord(root, name);
+  for(var name in chords) {
+    if(chords[name] == chordIntervals) return new Chord(root, name);
   }
   return null;
 }
