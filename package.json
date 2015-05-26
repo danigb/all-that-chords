@@ -1,7 +1,7 @@
 {
   "name": "all-that-chords",
   "version": "0.1.0",
-  "description": "A chord library",
+  "description": "A music chords library",
   "main": "index.js",
   "scripts": {
     "test": "vows test/*.js"
