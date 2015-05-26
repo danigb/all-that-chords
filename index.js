@@ -3,21 +3,24 @@
 var pitch = require('note-pitch');
 var intervals = require('./data/intervals.json');
 var aliases = require('./data/aliases.json');
+var scales = require('./data/scales.json');
 var voicings = require('./data/voicings.json');
 
 function Chord(root, name) {
   if(!(this instanceof Chord)) return new Chord(root, name);
 
   if(typeof(name) === 'undefined') {
-    this.name = root.substring(1);
-    this.root = root[0];
+    var match = /^([a-gA-G][#b]{0,2})(.*)$/.exec(root);
+    if(!match) throw Error('Chord not valid: ' + root);
+    this.root = match[1];
+    this.name = match[2];
   } else {
     this.root = root;
     this.name = name;
   }
   this.name = aliases[this.name] || this.name;
-  this.intervals = intervals[this.name].split(' ');
-  this.intervals = this.intervals || [];
+  this.intervals = intervals[this.name];
+  this.intervals = this.intervals ? this.intervals.split(' ') : [];
 }
 
 Chord.prototype.toString = function() {
@@ -26,6 +29,17 @@ Chord.prototype.toString = function() {
 
 Chord.prototype.notes = function() {
   return pitch.transpose(this.root, this.intervals);
+}
+
+Chord.prototype.scales = function () {
+  var root = this.root;
+  var chordScales = scales[this.name] || [];
+  return chordScales.map(function(complete) {
+    var interval = complete.slice(0,2);
+    var name = complete.substring(2);
+    var scaleRoot = pitch.transpose(root, interval);
+    return scaleRoot.charAt(0).toUpperCase() + scaleRoot.slice(1, -1) + name;
+  });
 }
 
 Chord.prototype.voicings = function() {

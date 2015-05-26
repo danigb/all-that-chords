@@ -1,0 +1,629 @@
+{
+  "4": [
+    "P1 aeolian",
+    "P1 mixolydian"
+  ],
+  "5": [],
+  "7": [
+    "P1 mixolydian",
+    "P1 lydian dominant",
+    "P1 bebop dominant",
+    "P1 whole tone",
+    "P1 major pentatonic",
+    "P1 mixolydian pentatonic",
+    "P1 major flat two pentatonic",
+    "P1 major blues",
+    "P1 minor pentatonic",
+    "P1 minor blues",
+    "P1 composite blues",
+    "P4 major",
+    "P5 dorian",
+    "P5 minor pentatonic",
+    "P5 minor six pentatonic",
+    "m2 diminished",
+    "M3 locrian pentatonic",
+    "m3 major flat two pentatonic",
+    "M6 major flat two pentatonic",
+    "d5 major flat two pentatonic"
+  ],
+  "9": [
+    "P1 mixolydian",
+    "P1 lydian dominant",
+    "P1 whole tone"
+  ],
+  "10": [],
+  "11": [
+    "P1 mixolydian"
+  ],
+  "13": [
+    "P1 lydian dominant",
+    "P1 mixolydian",
+    "m2 diminished"
+  ],
+  "M": [
+    "P1 major",
+    "P1 lydian",
+    "P1 bebop major",
+    "P1 major pentatonic",
+    "P1 ionian pentatonic",
+    "P1 harmonic major",
+    "P1 augmented",
+    "P1 double harmonic major",
+    "P1 double harmonic lydian",
+    "P1 major blues",
+    "P5 major pentatonic",
+    "M3 harmonic minor",
+    "m2 diminished"
+  ],
+  "M6": [
+    "P1 major",
+    "P1 lydian",
+    "P1 bebop major",
+    "P1 major pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic",
+    "M3 harmonic minor",
+    "m2 diminished"
+  ],
+  "M69": [
+    "P1 major",
+    "P1 lydian",
+    "P1 bebop major",
+    "P1 major pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic",
+    "M2 major pentatonic",
+    "M3 in-sen"
+  ],
+  "M6#11": [
+    "P1 lydian",
+    "P5 major"
+  ],
+  "M69#11": [
+    "P1 lydian",
+    "P1 major pentatonic",
+    "P5 major",
+    "P5 major pentatonic",
+    "M2 major pentatonic"
+  ],
+  "Madd9": [
+    "P1 major",
+    "P1 major pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic"
+  ],
+  "Msus2": [
+    "P1 major",
+    "P1 major pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic"
+  ],
+  "sus24": [
+    "P1 major"
+  ],
+  "M7": [
+    "P1 major",
+    "P1 lydian",
+    "P1 bebop major",
+    "P1 major pentatonic",
+    "P1 ionian pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic",
+    "M3 harmonic minor",
+    "M3 minor bebop",
+    "M3 bebop minor",
+    "M7 augmented"
+  ],
+  "M9": [
+    "P1 major",
+    "P1 lydian",
+    "P1 bebop major",
+    "P1 major pentatonic",
+    "P1 major blues",
+    "P5 major pentatonic"
+  ],
+  "M7#11": [
+    "P1 lydian",
+    "P1 lydian pentatonic",
+    "P1 major pentatonic",
+    "P5 major pentatonic",
+    "M2 major pentatonic",
+    "M2 mixolydian",
+    "M6 minor six pentatonic",
+    "M6 flat three pentatonic",
+    "M3 flat six pentatonic"
+  ],
+  "M9#11": [
+    "P1 lydian",
+    "P1 lydian pentatonic",
+    "P1 major pentatonic",
+    "P5 major pentatonic",
+    "M2 major pentatonic",
+    "M2 mixolydian"
+  ],
+  "M13": [
+    "P1 major",
+    "P1 lydian",
+    "P1 major pentatonic",
+    "P5 major pentatonic"
+  ],
+  "M7add13": [
+    "P1 major",
+    "P1 lydian",
+    "P1 major pentatonic",
+    "P5 major pentatonic"
+  ],
+  "M13#11": [
+    "P1 lydian",
+    "P1 lydian pentatonic",
+    "P1 major pentatonic",
+    "P5 major pentatonic",
+    "M2 major pentatonic",
+    "M2 mixolydian"
+  ],
+  "69#11": [
+    "P1 lydian",
+    "P1 lydian pentatonic",
+    "P1 major pentatonic",
+    "P5 major pentatonic",
+    "M2 major pentatonic",
+    "M2 mixolydian"
+  ],
+  "Mb5": [
+    "P1 lydian"
+  ],
+  "M7b5": [
+    "P1 lydian",
+    "d5 locrian pentatonic"
+  ],
+  "M9b5": [
+    "P1 lydian"
+  ],
+  "M7#9#11": [],
+  "Msus4": [
+    "P4 major pentatonic",
+    "P1 minor six pentatonic"
+  ],
+  "M7b6": [
+    "P1 harmonic major"
+  ],
+  "9no5": [
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "m2 diminished"
+  ],
+  "M#5": [
+    "P1 lydian augmented",
+    "P1 augmented",
+    "P1 lydian augmented",
+    "M3 harmonic major",
+    "M3 flat six pentatonic",
+    "M7 minor six pentatonic",
+    "M6 minor #7 pentatonic",
+    "M6 flat three pentatonic"
+  ],
+  "M7#5": [
+    "P1 lydian augmented",
+    "P1 augmented",
+    "M3 harmonic major",
+    "M3 flat six pentatonic",
+    "M7 minor six pentatonic",
+    "M6 minor #7 pentatonic",
+    "M6 flat three pentatonic"
+  ],
+  "M9#5": [
+    "P1 lydian augmented",
+    "P1 augmented",
+    "M7 minor six pentatonic",
+    "M3 flat six pentatonic"
+  ],
+  "M#5add9": [
+    "P1 lydian augmented",
+    "P1 augmented",
+    "M7 minor six pentatonic",
+    "M3 flat six pentatonic"
+  ],
+  "M7sus4": [
+    "P1 major"
+  ],
+  "M9sus4": [
+    "P1 major"
+  ],
+  "M7#5sus4": [
+    "P1 diminished"
+  ],
+  "M9#5sus4": [
+    "P1 diminished"
+  ],
+  "+add#9": [
+    "P1 augmented"
+  ],
+  "M7b9": [
+    "P1 lydian augmented"
+  ],
+  "Mb6": [
+    "P1 harmonic major"
+  ],
+  "m": [
+    "P1 dorian",
+    "P1 aeolian",
+    "P1 melodic minor",
+    "P1 harmonic minor",
+    "P1 minor pentatonic",
+    "P1 minor six diminished",
+    "P1 bebop minor",
+    "P1 minor bebop",
+    "P1 phrygian",
+    "P1 kumoi",
+    "M6 ionian pentatonic",
+    "P5 harmonic major"
+  ],
+  "m7": [
+    "P1 dorian",
+    "P1 minor pentatonic",
+    "P1 flat three pentatonic",
+    "P1 aeolian",
+    "P1 phrygian",
+    "P1 bebop minor",
+    "P1 minor bebop",
+    "P4 mixolydian",
+    "P4 major pentatonic",
+    "m7 major",
+    "m7 major pentatonic",
+    "m7 melodic minor",
+    "M2 augmented",
+    "m3 major pentatonic",
+    "P5 harmonic minor",
+    "m2 diminished"
+  ],
+  "m6": [
+    "P1 melodic minor",
+    "P1 minor six diminished",
+    "P1 bebop minor",
+    "P1 minor six pentatonic",
+    "P1 kumoi",
+    "M6 locrian pentatonic"
+  ],
+  "m69": [
+    "P1 melodic minor",
+    "P1 bebop minor",
+    "P1 minor six diminished",
+    "P1 kumoi",
+    "P5 harmonic major"
+  ],
+  "madd9": [
+    "P1 dorian",
+    "P1 melodic minor",
+    "P1 aeolian",
+    "P1 bebop minor",
+    "P5 harmonic major"
+  ],
+  "madd4": [
+    "P1 dorian"
+  ],
+  "mM7": [
+    "P1 melodic minor",
+    "P1 harmonic minor",
+    "P1 minor six diminished",
+    "P1 augmented",
+    "P1 minor hexatonic",
+    "P1 flat three pentatonic",
+    "P1 minor #7 pentatonic",
+    "P4 major pentatonic",
+    "P5 harmonic major",
+    "P5 flat six pentatonic",
+    "M7 whole tone pentatonic"
+  ],
+  "mM9": [
+    "P1 melodic minor",
+    "P1 harmonic minor",
+    "P1 minor six diminished",
+    "P1 bebop minor",
+    "P1 minor #7 pentatonic",
+    "P5 harmonic major",
+    "P4 major pentatonic"
+  ],
+  "mM7b6": [
+    "P1 harmonic minor",
+    "P1 minor six diminished"
+  ],
+  "mM9b6": [
+    "P1 harmonic minor",
+    "P1 minor six diminished"
+  ],
+  "m9": [
+    "P1 dorian",
+    "P1 bebop minor",
+    "P1 minor bebop",
+    "P1 aeolian",
+    "P4 mixolydian",
+    "P4 major pentatonic",
+    "m7 major",
+    "m7 major pentatonic",
+    "m3 major pentatonic",
+    "P5 harmonic minor"
+  ],
+  "m11": [
+    "P1 dorian",
+    "P1 aeolian",
+    "P4 mixolydian"
+  ],
+  "m7add11": [
+    "P1 dorian",
+    "P1 aeolian",
+    "P4 mixolydian"
+  ],
+  "m13": [
+    "P1 dorian"
+  ],
+  "m7b5": [
+    "P1 locrian #2",
+    "P1 locrian",
+    "P1 locrian pentatonic",
+    "P1 diminished",
+    "P1 bebop locrian",
+    "P1 minor blues",
+    "m3 melodic minor",
+    "m3 minor six pentatonic",
+    "m3 flat three pentatonic",
+    "m6 mixolydian",
+    "m7 harmonic minor",
+    "m7 harmonic major",
+    "m2 melodic minor",
+    "m2 diminished"
+  ],
+  "m9b5": [
+    "P1 locrian #2",
+    "P1 minor blues",
+    "m3 melodic minor",
+    "m6 mixolydian",
+    "m7 harmonic major"
+  ],
+  "m11b5": [
+    "P1 locrian #2",
+    "m3 melodic minor",
+    "m7 harmonic major"
+  ],
+  "m#5": [
+    "P1 aeolian",
+    "P1 harmonic minor",
+    "P1 pelog"
+  ],
+  "mb6b9": [
+    "P1 phrygian"
+  ],
+  "mb6M7": [
+    "P1 harmonic minor"
+  ],
+  "m7#5": [
+    "P1 aeolian",
+    "P1 harmonic minor"
+  ],
+  "m9#5": [
+    "P1 aeolian",
+    "P1 harmonic minor"
+  ],
+  "m11#5": [
+    "P1 aeolian",
+    "P1 harmonic minor"
+  ],
+  "addb9": [
+    "m2 diminished"
+  ],
+  "7no5": [
+    "P1 mixolydian",
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "m2 diminished"
+  ],
+  "7b9": [
+    "P4 minor six diminished",
+    "P4 harmonic minor",
+    "m2 diminished",
+    "m2 flat three pentatonic",
+    "m2 augmented"
+  ],
+  "7b9#9": [
+    "P4 minor six diminished",
+    "P4 harmonic minor",
+    "m2 diminished",
+    "m2 flat three pentatonic",
+    "m2 augmented"
+  ],
+  "7#5": [
+    "P1 whole tone",
+    "P1 augmented",
+    "P1 hindu",
+    "P1 spanish",
+    "m6 flat six pentatonic"
+  ],
+  "7#9": [
+    "m2 diminished",
+    "m2 melodic minor",
+    "m2 flat three pentatonic",
+    "m6 flat six pentatonic"
+  ],
+  "7#11": [
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "P5 melodic minor",
+    "P5 minor hexatonic",
+    "P5 flat three pentatonic",
+    "m2 diminished",
+    "M6 minor six pentatonic",
+    "M2 flat six pentatonic",
+    "d5 whole tone pentatonic"
+  ],
+  "7#9#11": [
+    "m2 diminished",
+    "m2 melodic minor"
+  ],
+  "7#9b13": [
+    "m2 diminished",
+    "m2 melodic minor"
+  ],
+  "7#9#11b13": [
+    "m2 diminished",
+    "m2 melodic minor"
+  ],
+  "7b5": [
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "m2 diminished"
+  ],
+  "9#11": [
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "P5 melodic minor"
+  ],
+  "9b5": [
+    "P1 lydian dominant",
+    "P1 whole tone"
+  ],
+  "9#5": [
+    "P1 whole tone"
+  ],
+  "9#5#11": [
+    "P1 whole tone",
+    "P1 diminished"
+  ],
+  "11b9": [
+    "P1 phrygian"
+  ],
+  "7add6": [
+    "P1 lydian dominant",
+    "P1 mixolydian",
+    "m2 diminished"
+  ],
+  "13no5": [
+    "P1 lydian dominant",
+    "P1 mixolydian",
+    "m2 diminished"
+  ],
+  "7b13": [
+    "P1 altered",
+    "P1 diminished",
+    "P1 hindu",
+    "m7 flat three pentatonic",
+    "P4 flat six pentatonic"
+  ],
+  "7b6": [
+    "P1 melodic minor fifth mode"
+  ],
+  "9b13": [
+    "P1 altered",
+    "P1 diminished"
+  ],
+  "7#11b13": [
+    "P1 altered",
+    "P1 diminished"
+  ],
+  "9#11b13": [
+    "P1 diminished"
+  ],
+  "13b9": [
+    "m2 diminished",
+    "P4 harmonic minor"
+  ],
+  "13b5": [
+    "P1 lydian dominant",
+    "P1 whole tone",
+    "m2 diminished"
+  ],
+  "13#9": [
+    "m2 diminished"
+  ],
+  "13#11": [
+    "P1 lydian dominant",
+    "P5 melodic minor",
+    "m2 diminished"
+  ],
+  "13#9#11": [
+    "m2 diminished"
+  ],
+  "7sus4": [
+    "P1 mixolydian",
+    "M2 aeolian",
+    "P4 major pentatonic",
+    "m7 major pentatonic",
+    "P5 minor six pentatonic",
+    "P5 flat three pentatonic"
+  ],
+  "9sus4": [
+    "P1 mixolydian",
+    "M2 aeolian",
+    "P4 major pentatonic",
+    "m7 major pentatonic"
+  ],
+  "7#5sus4": [
+    "m6 minor pentatonic"
+  ],
+  "7sus4b9": [
+    "P1 phrygian",
+    "P1 melodic minor second mode",
+    "P1 in-sen",
+    "P1 major flat two pentatonic",
+    "m7 melodic minor",
+    "m7 minor six pentatonic",
+    "m7 flat three pentatonic",
+    "P4 flat six pentatonic"
+  ],
+  "7sus4b9b13": [
+    "P1 phrygian"
+  ],
+  "13sus4": [
+    "P1 mixolydian"
+  ],
+  "7b9#11": [
+    "m2 diminished",
+    "m2 melodic minor"
+  ],
+  "13b9#11": [
+    "m2 diminished"
+  ],
+  "7b9b13": [
+    "P4 minor six diminished",
+    "m2 melodic minor"
+  ],
+  "7b9b13#11": [
+    "P4 minor six diminished",
+    "m2 melodic minor"
+  ],
+  "7#5b9": [
+    "m2 melodic minor",
+    "m2 minor six pentatonic"
+  ],
+  "7#5b9#11": [
+    "m2 melodic minor",
+    "m2 minor six pentatonic"
+  ],
+  "7#5#9": [
+    "m2 melodic minor",
+    "d5 major pentatonic",
+    "A4 mixolydian",
+    "m3 minor six pentatonic",
+    "m6 flat six pentatonic",
+    "m7 locrian pentatonic",
+    "P1 whole tone pentatonic"
+  ],
+  "o": [
+    "P1 diminished",
+    "m2 harmonic minor",
+    "A4 mixolydian pentatonic",
+    "m6 mixolydian pentatonic"
+  ],
+  "o7": [
+    "P1 diminished",
+    "m2 harmonic minor"
+  ],
+  "oM7": [
+    "P1 diminished"
+  ],
+  "o7M7": [
+    "P1 diminished"
+  ],
+  "Blues": [
+    "P1 minor blues"
+  ],
+  "m10": []
+}

@@ -34,6 +34,13 @@ chord.voicings();
 chord.voice('left-hand-A');
 ```
 
+### scales
+
+```js
+chord = Chord('BbMaj9#1');
+chord.scales();
+```
+
 ## License
 
 This library contains parts of [impro-visor](http://www.cs.hmc.edu/~keller/jazz/improvisor/)

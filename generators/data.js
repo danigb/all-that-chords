@@ -1,6 +1,9 @@
 var write = require('fs').writeFile;
 var source = require('./impro-visor-chords.json');
 
+delete source['_Bass'];
+delete source['_Note'];
+
 module.exports = {
   source: source,
 
